@@ -10,7 +10,7 @@ Margin,9,Instant online margin activation,True,True,True,True,3,False,False,Fals
 Margin,10,Multiple margin packages / rate tiers,True,True,True,True,3,False,False,False
 Margin,11,Interest-free or promotional margin rate,True,True,True,True,3,False,False,False
 Margin,12,Marginable stock list size (write the number),True,True,True,True,3,False,False,False
-Margin,13,Real-time margin-call alerts (push / SMS),True,True,True,False,2,False,False,False
+Margin,13,Real-time margin-call alerts (push / SMS),True,True,True,True,3,False,False,False
 Margin,14,Online advance of sale proceeds (ung truoc),True,True,True,True,3,False,False,False
 Margin,15,Margin rate shown transparently in app,True,True,True,True,3,False,False,False
 New investors,1,Online account opening with eKYC (same day),True,True,True,True,3,False,False,False

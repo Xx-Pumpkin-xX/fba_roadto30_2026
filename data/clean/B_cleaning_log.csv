@@ -16,6 +16,6 @@ D18,2.1_Margin,"C15,C16,C19 (Q4/2025)","SSI, VND, MBS Q4/2025 in 2.1_Margin are 
 D19,2.1_Margin,"C8, C12 (Q2/2025)","DSE Q2/2025 (4,835) is margin-only; VCI Q2/2025 not yet verified","Checked against Q2/2025 statements: DSE total loans 5,052.62 bn (fixed); VCI 11,306.62 bn (matches BA)",4835,5052.62
 D23,(new),24 statements,"Leader needs quarterly Q3/2025-Q2/2026 figures (codes 06, 03, 114)",Read from statements; Q1+Q2/2026 match the BA H1 figures (max gap 0.55 bn),,
 D20,2.1_NewInvestors,C2:C5,New-account shares came from press and mixed period types,Use DNSE annual-report figures: FY2024 21.6%; Q1-Q4/2025 = 34/18/16/19%; FY2025 20%,,
-D24,2.1_Derivatives,O5:O8,Sources D4-D7 had no link,"Checked against HNX releases (Q3/25, Q4/25, Q2/26) and Vietstock citing HNX (Q1/26): 4/4 match",,
+D24,2.1_Derivatives,O5:O8,Sources D1-D7 had no link,Checked against HNX releases and Vietstock citing HNX: 7/7 quarters match,,
 D21,2.3_Derivatives,G3,Two derivatives-share figures (25.38% Q2/2026 and 25.47% H1/2026),"Use 25.38% only (Q2/2026, same quarterly HNX source as momentum)",0.2547,0.2538
 D22,2.5_Pricing,D4 (TCBS),"TCBS 0.03% is the exchange fee, not a brokerage fee",TCBS brokerage fee set to 0 (Leader: ignore exchange fees),0.0003,0.0

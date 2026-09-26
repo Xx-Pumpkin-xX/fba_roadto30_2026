@@ -1,6 +1,6 @@
 segment,window,metric,start,start_val,end,end_val,change_pp,is_base
 New investors,FY,Share of new accounts (DNSE annual reports),FY2024,0.216,FY2025,0.20144719487013127,-1.4552805129868729,True
-New investors,18M,"Share of new accounts (BA, press)",H1/2024,0.3,FY2025,0.2,-9.999999999999998,False
+New investors,P0/P1 (partial),"Share of new accounts, avg P0 vs avg Q4/2025-Q1/2026 (Q2/2026 not published)",P0 avg,0.2492278269568506,P1 avg,0.18375694437734902,-6.5470882579501595,False
 Margin,P0/P1,"Share of sample total loans, avg P0 vs avg P1",P0 avg,0.05206690996188155,P1 avg,0.05031820997067664,-0.17486999912049092,True
 Margin,6M,Share of sample total loans,Q4/2025,0.04923798556680839,Q2/2026,0.05139843437454488,0.2160448807736491,False
 Derivatives,P0/P1,"Derivatives brokerage share, avg P0 vs avg P1",P0 avg,0.14773333333333336,P1 avg,0.25046666666666667,10.273333333333332,True

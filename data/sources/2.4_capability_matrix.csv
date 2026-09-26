@@ -55,7 +55,7 @@ Margin,9,Instant online margin activation,VPS,Yes,https://mgi.com.vn/mgi-huong-d
 Margin,10,Multiple margin packages / rate tiers,VPS,Yes,https://vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/chuong-trinh-uu-dai-lai-suat-vay-margin-tai-vps-hien-nay-la-gi,2026-09-26,,Teammate (checked 26/9)
 Margin,11,Interest-free or promotional margin rate,VPS,Yes,vps.com.vn (Phong); BA 2.5_Pricing [S13],2026-09-26,Promotional margin rate 8.8% for new customers,Phong (manual)
 Margin,12,Marginable stock list size (write the number),VPS,Yes,vps.com.vn Danh mục chứng khoán ký quỹ (Phong),2026-09-26,Marginable list published; count not recorded,Phong (manual)
-Margin,13,Real-time margin-call alerts (push / SMS),VPS,Unknown,,2026-09-26,Margin status/alerts exist in system; no official source confirming real-time push/SMS call,Teammate (checked 26/9)
+Margin,13,Real-time margin-call alerts (push / SMS),VPS,Yes,https://smartone.vps.com.vn/,2026-09-26,SmartOne shows margin status/call margin; push + SMS alerts per secondary sources (search summary) - weak evidence,"Phong (search, 26/9)"
 Margin,14,Online advance of sale proceeds (ung truoc),VPS,Yes,https://smartone.vps.com.vn/Home/BriefUserGuide,2026-09-26,Section 6.5 online advance,Teammate (checked 26/9)
 Margin,15,Margin rate shown transparently in app,VPS,Yes,vps.com.vn Biểu phí (Phong),2026-09-26,Margin rate published in fee schedule (13.8%),Phong (manual)
 Derivatives,16,VN30 futures trading in main mobile app,VPS,Yes,https://www.tinnhanhchungkhoan.vn/vps-cung-cap-lenh-dieu-kien-dap-ung-nhu-cau-dau-tu-chung-khoan-phai-sinh-hieu-qua-post280661.html,2026-09-26,Derivatives trading on SmartOne,Claude (web search)

@@ -21,12 +21,9 @@ M3.1,Team B dataset source ID – details pending,,,,,PENDING BA
 M3.2,Team B dataset source ID – details pending,,,,,PENDING BA
 M4.1,Team B dataset source ID – details pending,,,,,PENDING BA
 M4.2,Team B dataset source ID – details pending,,,,,PENDING BA
-D1,Team B dataset source ID – details pending,,,,,PENDING BA
-D2,Team B dataset source ID – details pending,,,,,PENDING BA
-D3,Team B dataset source ID – details pending,,,,,PENDING BA
 A1,Team B dataset source ID – details pending,,,,,PENDING BA
 A2,Team B dataset source ID – details pending,,,,,PENDING BA
 F9,"Quarterly statements Q3/2025-Q2/2026, six brokers (codes 06, 03, 114) – data/sources/bctc_quarterly_4Q_official.csv",company IR sites,2026-09-26,VND,A,verified
-D4-D7,HNX quarterly derivatives brokerage shares – data/sources/derivatives_share_links.csv,hnx.vn,2026-09-26,%,A,verified
-V1,"VSDC new accounts Q4/2024, Q2/2026 (via press) – data/sources/new_accounts_vsdc.csv",nhadautu.vn; baomoi.com,2026-09-26,accounts,C,verified
+D1-D7,HNX quarterly derivatives brokerage shares – data/sources/derivatives_share_links.csv,hnx.vn,2026-09-26,%,A,verified
+V1,"VSDC / DNSE new accounts Q4/2024, Q1/2026, Q2/2026 (via press) – data/sources/new_accounts_vsdc.csv",nhadautu.vn; baomoi.com,2026-09-26,accounts,C,verified
 FEE,Derivatives fee schedules DNSE/VPS/TCBS/SSI + consolidated circular 30/2026/VBHN-BTC,see derivatives_fee_3cols.csv,2026-09-26,VND/contract,A,verified (SSI from BA)
