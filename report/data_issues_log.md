@@ -106,3 +106,15 @@ Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new invest
 - **Result:** margin 3.75 = derivatives 3.75 > new investors 3.25; derivatives efficiency = 3 would make derivatives lead (4.00).
 - **Possible origin of "1.92%":** Mirae Asset's H1/2026 derivatives share in the same HNX table; not a DNSE figure.
 - **Follow-up (26/09, late):** SSI derivatives fee re-checked on SSI's site (self-directed online 2,000 / 1,500 / 500 per contract; matches the dataset). Derivatives shares Q4/2024–Q2/2025 now linked to HNX (7/7 quarters verified). DNSE new accounts Q1/2026 = 142,000, 18% share (Vietstock 18/04/2026); used only in the sensitivity check (new-investor P0/P1 partial: −6.5 pp, score 1 → axis 3.00, leader unchanged). VPS real-time margin alerts set to "Yes" on weak evidence (no score effect).
+
+## 9. Leader review (26/09/2026, night)
+
+- **D25:** DSE equity at 30/6/2026 = 5,440.25 bn (reviewed half-year statement) → margin headroom 4,577 bn.
+- **D26:** the 1.92% "stock-brokerage share" was Mirae Asset's derivatives share. DNSE is outside HOSE's top 10, so the 10th broker's share (2.94%, Q2/2026) is used as an upper bound; the headroom score is unchanged unless DNSE's true share exceeds 6.5%.
+- **Derivatives efficiency** is now rule-based: DNSE's low-volume fee ranks #3 of 5 → 3 (old judgement 2 kept as a sensitivity).
+- **New-investor momentum** now uses P0/P1 like the other groups (P1 = Q4/2025–Q1/2026; Q2/2026 not published): −6.5 pp → 1.
+- D01 wording corrected (DNSE advances: 584 bn end-2025, 178 bn at 30/6/2026); D02b closed; Figure 10 title restated as a figure.
+- **Table 4:** derivatives 4.00 > margin 3.75 > new investors 3.00. Leaders across Table PL2: derivatives 5/8, margin 2/8, tie 1/8 (see `Table_PL2_axis2_sensitivity.csv`).
+- **Net brokerage revenue (Table PL1):** fees paid to the exchanges/VSDC in H1/2026 read from the reviewed half-year statements: DSE 113.4, HCM 185.4, MBS 104.4 bn (explicit lines); SSI 264.4 and VND 181.2 bn (by-nature 'brokerage charges', a proxy); VCI not disclosed (limitation). See `data/sources/brokerage_fees_H1_2026.csv` and `PL1_inputs_for_Leader.csv`.
+- **The ~94 bn gap:** DNSE's statements do not split brokerage revenue by product. Net brokerage revenue 108.7 bn less an estimated 14.6 bn of derivatives fees leaves 94.1 bn, close to the 90.5 bn of partner commissions paid (note 30). This suggests the non-derivatives revenue comes mainly from partner-channel accounts and is largely passed on to partners; it cannot be confirmed from the statements alone.
+- **Checklist files added:** `2.1_market_share_quarterly.csv`, `2.5_competition.csv` (price position, derivatives concentration, bank-affiliated peers), `PL1_inputs_for_Leader.csv`.

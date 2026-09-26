@@ -1,9 +1,9 @@
 ,New investors,Margin,Derivatives,leader
-Base,3.25,3.75,3.75,Margin = Derivatives
-"Alt momentum windows (new inv. P0/P1 partial, margin 6M, deriv 12M)",3.0,3.75,3.75,Margin = Derivatives
-Derivatives efficiency = 3,3.25,3.75,4.0,Derivatives
-"2.4 alt prices (margin promo, deriv top tier)",3.25,3.75,2.5,Margin
-Drop 2.1 Momentum,3.6666666666666665,4.0,3.3333333333333335,Margin
-Drop 2.2 Headroom,2.6666666666666665,3.6666666666666665,4.0,Derivatives
-Drop 2.3 Efficiency,4.0,4.0,4.333333333333333,Derivatives
-Drop 2.4 Capability & price,2.6666666666666665,3.3333333333333335,3.3333333333333335,Margin = Derivatives
+Base,3.0,3.75,4.0,Derivatives
+"Alt momentum windows (new inv. FY24→FY25, margin 6M, deriv 12M)",3.25,3.75,4.0,Derivatives
+Derivatives efficiency = 2 (old judgement),3.0,3.75,3.75,Margin = Derivatives
+"2.4 alt prices (margin promo, deriv top tier)",3.0,3.75,2.75,Margin
+Drop 2.1 Momentum,3.6666666666666665,4.0,3.6666666666666665,Margin
+Drop 2.2 Headroom,2.3333333333333335,3.6666666666666665,4.333333333333333,Derivatives
+Drop 2.3 Efficiency,3.6666666666666665,4.0,4.333333333333333,Derivatives
+Drop 2.4 Capability & price,2.3333333333333335,3.3333333333333335,3.6666666666666665,Derivatives

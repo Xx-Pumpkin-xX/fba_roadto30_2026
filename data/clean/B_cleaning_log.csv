@@ -5,11 +5,11 @@ D06,2.1_NewInvestors,A5/E5,Label says FY/2025 but period column says Q4/2025,Tre
 D07,2.1_NewInvestors,L3,Source_ID holds a reporting period,"Source ID left blank, pending BA",Q4/2025,
 D11,2.3_Derivatives,C6,Text in a numeric column,Use 300 and flag negotiable,300 or upon agreement,300
 D12,2.3_Derivatives,F4,Truncated label '[Asss',Renamed to side_factor [ASSUMPTION] = 2,Brokerage_Side_Factor [Asss,side_factor [ASSUMPTION]
-D01,2.1_Margin / 2.3_Margin,DSE,"Reported 'margin' Q4/2025, Q2/2026 is actually total loans (advances < 1 bn)",Use total loans (2.3_Margin E/H) for all six brokers,,
-D01,2.1_Margin / 2.3_Margin,HCM,"Reported 'margin' Q4/2025, Q2/2026 is actually total loans (advances < 1 bn)",Use total loans (2.3_Margin E/H) for all six brokers,,
-D01,2.1_Margin / 2.3_Margin,VCI,Reported 'margin' Q4/2025 is actually total loans (advances < 1 bn),Use total loans (2.3_Margin E/H) for all six brokers,,
+D01,2.1_Margin / 2.3_Margin,DSE,"'Margin' figure Q4/2025, Q2/2026 equals total loans in 2.3_Margin, i.e. already includes advances (DSE: advances 584 bn at end-2025, 178 bn at 30/6/2026)",Use total loans (code 114) for all six brokers,,
+D01,2.1_Margin / 2.3_Margin,HCM,"'Margin' figure Q4/2025, Q2/2026 equals total loans in 2.3_Margin, i.e. already includes advances",Use total loans (code 114) for all six brokers,,
+D01,2.1_Margin / 2.3_Margin,VCI,"'Margin' figure Q4/2025 equals total loans in 2.3_Margin, i.e. already includes advances",Use total loans (code 114) for all six brokers,,
 D02,2.3_Margin,O2 (DSE),"Hard-coded 240 bn borrowing cost; BA located the source (6M/2026 FS, code 24, note 29)",Use exact value = 248.926 - 8.964 bn,240.0,239.961
-D02b,2.3_Margin,O3:O7,Peers may also book borrowing costs in code 24 but are set to 0,Kept at 0; break-even computed in section 4.2; pending BA split of code 24,,
+D02b,2.3_Margin,O3:O7,Peers may also book borrowing costs in code 24 but are set to 0,"CLOSED: peers' code 24 checked in their statements (SSI, VND, VCI, MBS ≈ 0; HCM already in interest expense) → keep 0 (see D16)",,
 D16,2.3_Margin,T5/O5 (HCM),"HCM books ALL borrowing costs in code 24 (FY2025 VND 1,452.77 bn; no separate interest-expense line)","Checked: the 1,031.6 bn the BA recorded as H1/2026 interest expense IS code 24 -> kept; O5 = 0 is correct (avoids double counting)",,
 D17,2.1_Margin,C2 (DSE Q4/2024),"DSE Q4/2024 (3,785) is margin-only while later dates are total loans","Replaced by total loans 3,881.59 bn (DNSE Annual Report 2025, note 7c)",3785,3881.59
 D18,2.1_Margin,"C15,C16,C19 (Q4/2025)","SSI, VND, MBS Q4/2025 in 2.1_Margin are margin-only","Use total loans, code 114 (= 2.3_Margin E, verified against the statements)","38,616 / 13,647 / 14,517","38,940 / 14,319 / 15,041"
@@ -17,5 +17,7 @@ D19,2.1_Margin,"C8, C12 (Q2/2025)","DSE Q2/2025 (4,835) is margin-only; VCI Q2/2
 D23,(new),24 statements,"Leader needs quarterly Q3/2025-Q2/2026 figures (codes 06, 03, 114)",Read from statements; Q1+Q2/2026 match the BA H1 figures (max gap 0.55 bn),,
 D20,2.1_NewInvestors,C2:C5,New-account shares came from press and mixed period types,Use DNSE annual-report figures: FY2024 21.6%; Q1-Q4/2025 = 34/18/16/19%; FY2025 20%,,
 D24,2.1_Derivatives,O5:O8,Sources D1-D7 had no link,Checked against HNX releases and Vietstock citing HNX: 7/7 quarters match,,
+D25,2.2_Margin,E2 (DSE),"DSE equity at 30/6/2026 taken from the quarterly statement (5,441.46), not the reviewed one","Use the reviewed half-year statement: 5,440.25 bn (from the Leader)",5441.46,5440.25
 D21,2.3_Derivatives,G3,Two derivatives-share figures (25.38% Q2/2026 and 25.47% H1/2026),"Use 25.38% only (Q2/2026, same quarterly HNX source as momentum)",0.2547,0.2538
 D22,2.5_Pricing,D4 (TCBS),"TCBS 0.03% is the exchange fee, not a brokerage fee",TCBS brokerage fee set to 0 (Leader: ignore exchange fees),0.0003,0.0
+D26,2.2_NewInvestors,B6,"1.92% is Mirae Asset's H1/2026 derivatives share, not DNSE's stock-brokerage share","DNSE is outside HOSE's top 10 → use the 10th broker's share (2.94%, Q2/2026) as an upper bound (MASTERPLAN)",0.0192,0.0294

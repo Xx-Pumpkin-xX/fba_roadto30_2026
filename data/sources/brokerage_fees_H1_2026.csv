@@ -1,0 +1,7 @@
+﻿ticker,rev_brokerage_gross_h1_26_bn,exchange_fees_h1_26_bn,split_quality,line_used,source,rev_brokerage_net_h1_26_bn,fees_pct_of_gross,accessed
+DSE,222.058164995,113.351930056,explicit,Note 30 'Phí giao dịch chứng khoán môi giới',DSE_BCTC_BanNien_6M-2026.pdf p.65,108.706234939,0.5104605365830719,2026-09-26
+HCM,520.965235028,185.383142766,explicit,'Chi phí giao dịch trả cho các Sở giao dịch chứng khoán' within brokerage expense,HCM_BCTC_BanNien_6M-2026.pdf p.72,335.58209226200006,0.35584551578770185,2026-09-26
+MBS,404.953212278,104.428568509,explicit,Note 44 'Phí giao dịch chứng khoán môi giới',MBS_BCTC_BanNien_6M-2026.pdf p.74,300.524643769,0.257878108736448,2026-09-26
+SSI,1068.45233332,264.373179239,proxy,By-nature table 'Chi phí môi giới chứng khoán' (may include other brokerage charges),SSI_BCTC_BanNien_6M-2026.pdf p.76,804.079154081,0.2474356328255784,2026-09-26
+VND,381.653651889,181.192635918,proxy,By-nature table 'Chi phí môi giới chứng khoán' (may include other brokerage charges),VND_BCTC_BanNien_6M-2026.pdf p.60,200.461015971,0.4747567199244251,2026-09-26
+VCI,565.530426863,,not disclosed,Brokerage expense not broken down in the half-year notes,VCI_BCTC_BanNien_6M-2026.pdf,,,2026-09-26

@@ -1,0 +1,19 @@
+segment,quarter,dse_share,source
+Margin (share of 6-broker total loans),Q3/2025,0.05242408945819551,FS code 114
+Margin (share of 6-broker total loans),Q4/2025,0.04923789586716868,FS code 114
+Margin (share of 6-broker total loans),Q1/2026,0.05103443573152154,FS code 114
+Margin (share of 6-broker total loans),Q2/2026,0.051398198424877965,FS code 114
+Derivatives brokerage (HNX),Q4/2024,0.0998,HNX
+Derivatives brokerage (HNX),Q1/2025,0.1672,HNX
+Derivatives brokerage (HNX),Q2/2025,0.1762,HNX
+Derivatives brokerage (HNX),Q3/2025,0.2367,HNX
+Derivatives brokerage (HNX),Q4/2025,0.2426,HNX
+Derivatives brokerage (HNX),Q1/2026,0.255,HNX
+Derivatives brokerage (HNX),Q2/2026,0.2538,HNX
+New accounts (VSDC / DNSE),Q4/2024,0.2303449074074074,"DNSE annual reports, press"
+New accounts (VSDC / DNSE),Q1/2025,0.33786579882449647,"DNSE annual reports, press"
+New accounts (VSDC / DNSE),Q2/2025,0.179472774638648,"DNSE annual reports, press"
+New accounts (VSDC / DNSE),Q3/2025,0.1645273443505741,"DNSE annual reports, press"
+New accounts (VSDC / DNSE),Q4/2025,0.18751388875469802,"DNSE annual reports, press"
+New accounts (VSDC / DNSE),Q1/2026,0.18,"DNSE annual reports, press"
+Stock brokerage HOSE (upper bound: 10th broker),Q2/2026,0.0294,HOSE via CafeF 06/07/2026

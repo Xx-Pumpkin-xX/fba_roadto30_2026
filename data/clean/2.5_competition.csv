@@ -1,0 +1,4 @@
+segment,price_basis,dse,peer_median,share_of_peers_at_or_below_dse,derivatives_top2_share_Q2_2026,bank_affiliated_peers
+New investors,"Stock brokerage fee, % (excl. exchange fee)",0.0,0.001,0.2,,"MBS, TCBS"
+Margin,"Broad margin rate, %/yr",0.125,0.13,0.4,,"MBS, TCBS"
+Derivatives,"Fee per contract, low volume, VND",1000.0,1500.0,0.5,0.5922000000000001,"MBS, TCBS"
