@@ -2,6 +2,7 @@
 SUBMISSION_NOTES.md
 report/*
 !report/data_issues_log.md
+!report/findings_axis2_draft.md
 
 # Raw competition dataset (not published)
 data/raw/*

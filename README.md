@@ -42,7 +42,7 @@ requirements.txt
 ```
 
 Key files in `data/clean/`:
-- `Table4_axis2_scores_DRAFT.csv`: axis-2 scores.
+- `Table4_axis2_scores.csv`: axis-2 scores.
 - `Table4_axis2_evidence.csv`: the evidence behind each score.
 - `Table_PL2_axis2_sensitivity.csv`: the sensitivity check.
 - `L_bctc_ctck_quarterly.csv`: six brokers × Q3/2025–Q2/2026, codes 06 (brokerage revenue), 03 (interest on loans) and 114 (total loans), with sample totals.

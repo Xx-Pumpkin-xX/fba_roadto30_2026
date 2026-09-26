@@ -118,3 +118,12 @@ Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new invest
 - **Net brokerage revenue (Table PL1):** fees paid to the exchanges/VSDC in H1/2026 read from the reviewed half-year statements: DSE 113.4, HCM 185.4, MBS 104.4 bn (explicit lines); SSI 264.4 and VND 181.2 bn (by-nature 'brokerage charges', a proxy); VCI not disclosed (limitation). See `data/sources/brokerage_fees_H1_2026.csv` and `PL1_inputs_for_Leader.csv`.
 - **The ~94 bn gap:** DNSE's statements do not split brokerage revenue by product. Net brokerage revenue 108.7 bn less an estimated 14.6 bn of derivatives fees leaves 94.1 bn, close to the 90.5 bn of partner commissions paid (note 30). This suggests the non-derivatives revenue comes mainly from partner-channel accounts and is largely passed on to partners; it cannot be confirmed from the statements alone.
 - **Checklist files added:** `2.1_market_share_quarterly.csv`, `2.5_competition.csv` (price position, derivatives concentration, bank-affiliated peers), `PL1_inputs_for_Leader.csv`.
+
+## 10. Leader's final instructions (lan 3, 26/09/2026)
+
+- **2.4 rule:** 5 now requires a positive net score AND at least one differentiator; otherwise 2.5 (0 if net is negative). All three segments score 2.5 (parity): DNSE matches rivals on features and its only edge is price.
+- **New-investor efficiency** uses the brokerage contribution margin on net revenue (after exchange/VSDC fees): DSE −40.8%, rank 6/6 (VCI on gross because it does not disclose fees).
+- **Table 4:** new investors 2.375, margin 3.125, derivatives 3.375. Table PL2: derivatives lead 5/8, margin 2/8, tie 1/8; new investors never lead. Matches the Leader's expected results exactly.
+- Figures: Figure 8 axes start at 0 with segment colours and FTSE labels at the axis base; Figure 10 right panel on net revenue with VCI dashed; footers wrap; Figure 11 footer names the peers in each panel.
+- `Table4_axis2_scores_DRAFT.csv` renamed `Table4_axis2_scores.csv`; `report/findings_axis2_draft.md` now published.
+- **Open:** 62 Table 3 cells filled from web research still need a named human check (list in team notes).

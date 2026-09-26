@@ -1,4 +1,4 @@
 segment,parity_gaps,minor_gaps,differentiators,dse_price,peer_median,price_point,net,score
-New investors,0,1,0,0.0,0.001,1,1,5.0
-Margin,0,0,0,0.125,0.13,1,1,5.0
-Derivatives,0,0,0,1000.0,1500.0,1,1,5.0
+New investors,0,1,0,0.0,0.001,1,1,2.5
+Margin,0,0,0,0.125,0.13,1,1,2.5
+Derivatives,0,0,0,1000.0,1500.0,1,1,2.5
