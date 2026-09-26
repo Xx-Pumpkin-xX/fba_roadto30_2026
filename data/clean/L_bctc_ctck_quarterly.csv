@@ -1,0 +1,115 @@
+ticker,period,variable,value,unit,source,in_fixed_sample
+DSE,Q4/2025,equity,4302.33,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q2/2026,equity,5441.46,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q4/2025,financial_debt,10600.03,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q2/2026,financial_debt,9446.16,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q2/2026,cash,841.92,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2026,interest_expense,75.21,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
+SSI,Q4/2025,equity,31054.0,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,Q2/2026,equity,39592.0,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,Q4/2025,financial_debt,60160.5,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,Q2/2026,financial_debt,54038.27,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,Q2/2026,cash,531.52,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2026,interest_expense,1519.65,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
+VND,Q4/2025,equity,20902.91,VND bn,Team B dataset (BA) – source ID pending,True
+VND,Q2/2026,equity,21432.12,VND bn,Team B dataset (BA) – source ID pending,True
+VND,Q4/2025,financial_debt,28460.74,VND bn,Team B dataset (BA) – source ID pending,True
+VND,Q2/2026,financial_debt,25643.38,VND bn,Team B dataset (BA) – source ID pending,True
+VND,Q2/2026,cash,1325.72,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2026,interest_expense,699.04,VND bn,Team B dataset (BA) – source ID pending,True
+VND,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
+HCM,Q4/2025,equity,14543.14,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,Q2/2026,equity,14639.79,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,Q4/2025,financial_debt,30889.15,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,Q2/2026,financial_debt,26093.23,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,Q2/2026,cash,2202.39,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2026,interest_expense,1031.6,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
+VCI,Q4/2025,equity,18009.9,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,Q2/2026,equity,17137.89,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,Q4/2025,financial_debt,16064.55,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,Q2/2026,financial_debt,21703.63,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,Q2/2026,cash,3648.93,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2026,interest_expense,590.97,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
+MBS,Q4/2025,equity,7994.8,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,Q2/2026,equity,11941.66,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,Q4/2025,financial_debt,19291.63,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,Q2/2026,financial_debt,18186.0,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,Q2/2026,cash,3499.34,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2026,interest_expense,594.14,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,static,bank_affiliated,1.0,0/1,Team B dataset (BA) – source ID pending,True
+DSE,Q4/2025,lending_total,5832.2,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q2/2026,lending_total,6303.1,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2026,rev_lending,336.1,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2026,borrow_cost_loans,239.96142005299998,VND bn,"DNSE FS 6M/2026, IS code 24 / note 29 (via BA)",True
+SSI,Q4/2025,lending_total,38940.1,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,Q2/2026,lending_total,40472.6,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2026,rev_lending,2141.4,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
+VND,Q4/2025,lending_total,14319.0,VND bn,Team B dataset (BA) – source ID pending,True
+VND,Q2/2026,lending_total,12859.04,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2026,rev_lending,777.98,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
+HCM,Q4/2025,lending_total,28150.1,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,Q2/2026,lending_total,29023.5,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2026,rev_lending,1531.3,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
+VCI,Q4/2025,lending_total,16167.2,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,Q2/2026,lending_total,17145.8,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2026,rev_lending,877.5,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
+MBS,Q4/2025,lending_total,15040.6,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,Q2/2026,lending_total,16828.1,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2026,rev_lending,904.7,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
+DSE,H1/2025,rev_brokerage,122.8,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2025,exp_brokerage,145.1,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2026,rev_brokerage,222.1,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,H1/2026,exp_brokerage,266.5,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2025,rev_brokerage,795.8,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2025,exp_brokerage,600.1,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2026,rev_brokerage,1069.0,VND bn,Team B dataset (BA) – source ID pending,True
+SSI,H1/2026,exp_brokerage,706.2,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2025,rev_brokerage,353.4,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2025,exp_brokerage,236.2,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2026,rev_brokerage,381.6,VND bn,Team B dataset (BA) – source ID pending,True
+VND,H1/2026,exp_brokerage,267.3,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2025,rev_brokerage,397.1,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2025,exp_brokerage,305.0,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2026,rev_brokerage,521.0,VND bn,Team B dataset (BA) – source ID pending,True
+HCM,H1/2026,exp_brokerage,401.7,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2025,rev_brokerage,370.4,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2025,exp_brokerage,292.4,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2026,rev_brokerage,565.6,VND bn,Team B dataset (BA) – source ID pending,True
+VCI,H1/2026,exp_brokerage,349.1,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2025,rev_brokerage,325.4,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2025,exp_brokerage,279.9,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2026,rev_brokerage,404.9,VND bn,Team B dataset (BA) – source ID pending,True
+MBS,H1/2026,exp_brokerage,349.4,VND bn,Team B dataset (BA) – source ID pending,True
+DSE,Q4/2024,margin_reported,3785.0,VND bn,BA source M1.1,True
+SSI,Q4/2024,margin_reported,21999.0,VND bn,BA source M1.2,True
+VND,Q4/2024,margin_reported,10344.0,VND bn,BA source M1.2,True
+HCM,Q4/2024,margin_reported,20429.0,VND bn,BA source M1.2,True
+VCI,Q4/2024,margin_reported,11222.0,VND bn,BA source M1.2,True
+MBS,Q4/2024,margin_reported,10294.0,VND bn,BA source M1.2,True
+DSE,Q2/2025,margin_reported,4835.0,VND bn,BA source M2.1,True
+SSI,Q2/2025,margin_reported,33134.0,VND bn,BA source M2.2,True
+VND,Q2/2025,margin_reported,10644.0,VND bn,BA source M2.2,True
+HCM,Q2/2025,margin_reported,19813.0,VND bn,BA source M2.2,True
+VCI,Q2/2025,margin_reported,11307.0,VND bn,BA source M2.2,True
+MBS,Q2/2025,margin_reported,12796.0,VND bn,BA source M2.2,True
+DSE,Q4/2025,margin_reported,5832.0,VND bn,BA source M3.1,True
+SSI,Q4/2025,margin_reported,38616.0,VND bn,BA source M3.2,True
+VND,Q4/2025,margin_reported,13647.0,VND bn,BA source M3.2,True
+HCM,Q4/2025,margin_reported,28150.0,VND bn,BA source M3.2,True
+VCI,Q4/2025,margin_reported,16167.0,VND bn,BA source M3.2,True
+MBS,Q4/2025,margin_reported,14517.0,VND bn,BA source M3.2,True
+DSE,Q2/2026,margin_reported,6303.0,VND bn,BA source M4.1,True
+SSI,Q2/2026,margin_reported,40036.58,VND bn,BA source M4.2,True
+VND,Q2/2026,margin_reported,12663.0,VND bn,BA source M4.2,True
+HCM,Q2/2026,margin_reported,29023.52,VND bn,BA source M4.2,True
+VCI,Q2/2026,margin_reported,16646.46,VND bn,BA source M4.2,True
+MBS,Q2/2026,margin_reported,16670.4,VND bn,BA source M4.2,True

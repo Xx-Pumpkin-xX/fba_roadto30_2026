@@ -1,0 +1,12 @@
+variable,definition,unit,period_type,fs_line
+equity,Total owners' equity,VND bn,Quarter-end,Balance sheet – owners' equity
+financial_debt,Short- and long-term borrowings and finance leases + bonds issued,VND bn,Quarter-end,Balance sheet
+cash,Cash and cash equivalents,VND bn,Quarter-end,Balance sheet
+interest_expense,Interest expense (financial expenses line),VND bn,6 months,Income statement – financial expenses
+borrow_cost_loans,Borrowing cost of loans = code 24 less loan-impairment provision,VND bn,6 months,Income statement code 24 + provision note
+lending_total,"Total loans = margin loans + sale-proceeds advances (agreed definition, D01)",VND bn,Quarter-end,Balance sheet – loans
+margin_reported,Margin balance as recorded by the BA; definition differs across brokers (D01) – reference only,VND bn,Quarter-end,Mixed
+rev_lending,Interest from loans and receivables (incl. advances),VND bn,6 months,Income statement
+rev_brokerage,Securities brokerage revenue,VND bn,6 months,Income statement
+exp_brokerage,Securities brokerage expense,VND bn,6 months,Income statement
+bank_affiliated,Parent company is a bank (1 = yes),0/1,Static,Company website

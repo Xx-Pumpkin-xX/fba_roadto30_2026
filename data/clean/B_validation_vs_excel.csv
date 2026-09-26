@@ -1,0 +1,82 @@
+metric,sheet,cell,excel,python,match
+margin share DSE Q4/2024,2.1_Margin,E2,0.04848026847,0.04848026846669143,True
+margin share SSI Q4/2024,2.1_Margin,E3,0.2817747493,0.2817747492731162,True
+margin share VND Q4/2024,2.1_Margin,E4,0.1324913863,0.13249138626669912,True
+margin share HCM Q4/2024,2.1_Margin,E5,0.2616653645,0.26166536446658895,True
+margin share VCI Q4/2024,2.1_Margin,E6,0.1437372715,0.14373727152792898,True
+margin share MBS Q4/2024,2.1_Margin,E7,0.13185096,0.1318509599989753,True
+margin share DSE Q2/2025,2.1_Margin,E8,0.05225388797,0.05225388797025797,True
+margin share SSI Q2/2025,2.1_Margin,E9,0.3580931384,0.35809313836743073,True
+margin share VND Q2/2025,2.1_Margin,E10,0.1150342055,0.11503420549233213,True
+margin share HCM Q2/2025,2.1_Margin,E11,0.2141274627,0.2141274627414108,True
+margin share VCI Q2/2025,2.1_Margin,E12,0.1221995266,0.12219952663489285,True
+margin share MBS Q2/2025,2.1_Margin,E13,0.1382917788,0.1382917787936755,True
+margin share DSE Q4/2025,2.1_Margin,E14,0.04987642073,0.04987642073394966,True
+margin share SSI Q4/2025,2.1_Margin,E15,0.3302516912,0.33025169119722225,True
+margin share VND Q4/2025,2.1_Margin,E16,0.1167118508,0.11671185078124331,True
+margin share HCM Q4/2025,2.1_Margin,E17,0.2407443833,0.24074438334373852,True
+margin share VCI Q4/2025,2.1_Margin,E18,0.1382633906,0.1382633906045549,True
+margin share MBS Q4/2025,2.1_Margin,E19,0.1241522633,0.12415226333929137,True
+margin share DSE Q2/2026,2.1_Margin,E20,0.05194368095,0.05194368095190689,True
+margin share SSI Q2/2026,2.1_Margin,E21,0.3299456351,0.3299456350825792,True
+margin share VND Q2/2026,2.1_Margin,E22,0.1043571049,0.10435710485387863,True
+margin share HCM Q2/2026,2.1_Margin,E23,0.239185858,0.23918585800115638,True
+margin share VCI Q2/2026,2.1_Margin,E24,0.1371852145,0.13718521453572582,True
+margin share MBS Q2/2026,2.1_Margin,E25,0.1373825066,0.1373825065747531,True
+utilisation DSE,2.2_Margin,G2,0.5791644154,0.5791644154326229,True
+headroom DSE,2.2_Margin,H2,4579.92,4579.92,True
+funding cost (interest only) DSE,2.2_Margin,V2,0.01500734055,0.015007340547006686,True
+utilisation SSI,2.2_Margin,G3,0.5056145181,0.5056145180844616,True
+headroom SSI,2.2_Margin,H3,39147.42,39147.42,True
+funding cost (interest only) SSI,2.2_Margin,V3,0.05322824405,0.05322824405201563,True
+utilisation VND,2.2_Margin,G4,0.2954210783,0.2954210782694386,True
+headroom VND,2.2_Margin,H4,30201.24,30201.239999999998,True
+funding cost (interest only) VND,2.2_Margin,V4,0.05168109194,0.05168109193902423,True
+utilisation HCM,2.2_Margin,G5,0.991254656,0.9912546559752564,True
+headroom HCM,2.2_Margin,H5,256.06,256.0600000000013,True
+funding cost (interest only) HCM,2.2_Margin,V5,0.0724153677,0.07241536769787431,True
+utilisation VCI,2.2_Margin,G6,0.4856624707,0.4856624707008856,True
+headroom VCI,2.2_Margin,H6,17629.32,17629.32,True
+funding cost (interest only) VCI,2.2_Margin,V6,0.06258919546,0.06258919545501002,True
+utilisation MBS,2.2_Margin,G7,0.6979934113,0.6979934113012765,True
+headroom MBS,2.2_Margin,H7,7212.92,7212.919999999998,True
+funding cost (interest only) MBS,2.2_Margin,V7,0.06341276116,0.06341276115912345,True
+lending yield DSE,2.3_Margin,K2,0.110784241,0.1107842410158793,True
+blended funding cost DSE,2.3_Margin,R2,0.06289673998,0.06289673997901844,True
+net spread pp DSE,2.3_Margin,S2,4.788750104,4.788750103686086,True
+lending yield SSI,2.3_Margin,K3,0.1078618407,0.1078618407383202,True
+blended funding cost SSI,2.3_Margin,R3,0.05322824405,0.05322824405201563,True
+net spread pp SSI,2.3_Margin,S3,5.463359669,5.463359668630456,True
+lending yield VND,2.3_Margin,K4,0.1145012665,0.11450126646365963,True
+blended funding cost VND,2.3_Margin,R4,0.05168109194,0.05168109193902423,True
+net spread pp VND,2.3_Margin,S4,6.282017452,6.28201745246354,True
+lending yield HCM,2.3_Margin,K5,0.1071333623,0.10713336225110891,True
+blended funding cost HCM,2.3_Margin,R5,0.0724153677,0.07241536769787431,True
+net spread pp HCM,2.3_Margin,S5,3.471799455,3.4717994553234597,True
+lending yield VCI,2.3_Margin,K6,0.1053642722,0.10536427220604569,True
+blended funding cost VCI,2.3_Margin,R6,0.06258919546,0.06258919545501002,True
+net spread pp VCI,2.3_Margin,S6,4.277507675,4.277507675103568,True
+lending yield MBS,2.3_Margin,K7,0.1135534239,0.11355342389240855,True
+blended funding cost MBS,2.3_Margin,R7,0.06341276116,0.06341276115912345,True
+net spread pp MBS,2.3_Margin,S7,5.014066273,5.01406627332851,True
+brk contribution margin H1/25 DSE,2.3_Brokerage,E2,-0.1815960912,-0.1815960912052117,True
+brk contribution margin H1/26 DSE,2.3_Brokerage,I2,-0.1999099505,-0.19990995047276006,True
+brk contribution margin H1/25 SSI,2.3_Brokerage,E3,0.2459160593,0.2459160593113847,True
+brk contribution margin H1/26 SSI,2.3_Brokerage,I3,0.3393826006,0.3393826005612722,True
+brk contribution margin H1/25 VND,2.3_Brokerage,E4,0.3316355405,0.33163554046406335,True
+brk contribution margin H1/26 VND,2.3_Brokerage,I4,0.2995283019,0.29952830188679247,True
+brk contribution margin H1/25 HCM,2.3_Brokerage,E5,0.2319315034,0.2319315033996475,True
+brk contribution margin H1/26 HCM,2.3_Brokerage,I5,0.2289827255,0.2289827255278311,True
+brk contribution margin H1/25 VCI,2.3_Brokerage,E6,0.2105831533,0.2105831533477322,True
+brk contribution margin H1/26 VCI,2.3_Brokerage,I6,0.3827793494,0.38277934936350777,True
+brk contribution margin H1/25 MBS,2.3_Brokerage,E7,0.1398279041,0.1398279041180086,True
+brk contribution margin H1/26 MBS,2.3_Brokerage,I7,0.1370708817,0.137070881699185,True
+DSE deriv share Q4/2024,2.1_Derivatives,O2,0.0998,0.0998,True
+DSE deriv share Q1/2025,2.1_Derivatives,O3,0.1672,0.1672,True
+DSE deriv share Q2/2025,2.1_Derivatives,O4,0.1762,0.1762,True
+DSE deriv share Q3/2025,2.1_Derivatives,O5,0.2367,0.2367,True
+DSE deriv share Q4/2025,2.1_Derivatives,O6,0.2426,0.2426,True
+DSE deriv share Q1/2026,2.1_Derivatives,O7,0.255,0.255,True
+DSE deriv share Q2/2026,2.1_Derivatives,O8,0.2538,0.2538,True
+deriv revenue low fee (bn/yr),2.3_Derivatives,G10,8.778967712,8.77896771156,True
+deriv revenue high fee (bn/yr),2.3_Derivatives,G11,29.26322571,29.263225705199996,True

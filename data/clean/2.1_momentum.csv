@@ -1,0 +1,7 @@
+segment,window,metric,start,start_val,end,end_val,change_pp,is_base
+New investors,12M,Share of new accounts,Late-2024,0.2107,FY2025,0.2,-1.0699999999999987,True
+New investors,18M,Share of new accounts,H1/2024,0.3,FY2025,0.2,-9.999999999999998,False
+Margin,12M,Share of sample lending (reported series),Q2/2025,0.05225388797025797,Q2/2026,0.05194368095190689,-0.031020701835107745,True
+Margin,6M,Share of sample lending (loans + advances),Q4/2025,0.04923798556680839,Q2/2026,0.05139843437454489,0.2160448807736498,False
+Derivatives,12M,Derivatives brokerage share,Q2/2025,0.1762,Q2/2026,0.2538,7.760000000000003,True
+Derivatives,6M,Derivatives brokerage share,Q4/2025,0.2426,Q2/2026,0.2538,1.1200000000000014,False

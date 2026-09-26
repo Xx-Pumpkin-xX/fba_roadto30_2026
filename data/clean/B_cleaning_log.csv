@@ -1,0 +1,12 @@
+code,sheet,cell,issue,action,before,after
+D04,2.1_NewInvestors,H4,"Date parsed month-first, breaking chronological order",Swap day and month back,2026-08-04,2026-04-08
+D05,2.1_NewInvestors,"B2:B5,H2:H5",Dates stored as text,Parse with dayfirst=True,text,datetime
+D06,2.1_NewInvestors,A5/E5,Label says FY/2025 but period column says Q4/2025,Treated as full-year 2025 (matches the Masterplan); column E renamed source_report,Q4/2025,FY2025
+D07,2.1_NewInvestors,L3,Source_ID holds a reporting period,"Source ID left blank, pending BA",Q4/2025,
+D11,2.3_Derivatives,C6,Text in a numeric column,Use 300 and flag negotiable,300 or upon agreement,300
+D12,2.3_Derivatives,F4,Truncated label '[Asss',Renamed to side_factor [ASSUMPTION] = 2,Brokerage_Side_Factor [Asss,side_factor [ASSUMPTION]
+D01,2.1_Margin / 2.3_Margin,DSE,"Reported 'margin' Q4/2025, Q2/2026 is actually total loans (advances < 1 bn)",Use total loans (2.3_Margin E/H) for all six brokers,,
+D01,2.1_Margin / 2.3_Margin,HCM,"Reported 'margin' Q4/2025, Q2/2026 is actually total loans (advances < 1 bn)",Use total loans (2.3_Margin E/H) for all six brokers,,
+D01,2.1_Margin / 2.3_Margin,VCI,Reported 'margin' Q4/2025 is actually total loans (advances < 1 bn),Use total loans (2.3_Margin E/H) for all six brokers,,
+D02,2.3_Margin,O2 (DSE),"Hard-coded 240 bn borrowing cost; BA located the source (6M/2026 FS, code 24, note 29)",Use exact value = 248.926 - 8.964 bn,240.0,239.961
+D02b,2.3_Margin,O3:O7,Peers may also book borrowing costs in code 24 but are set to 0,Kept at 0; break-even computed in section 4.2; pending BA split of code 24,,

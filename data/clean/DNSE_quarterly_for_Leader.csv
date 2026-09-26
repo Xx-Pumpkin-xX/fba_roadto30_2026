@@ -1,0 +1,25 @@
+period,variable,value_bn,source,note
+Q4/2025,total_operating_revenue,437.2,Vietstock 16/01/2026,
+Q4/2025,rev_brokerage,125.0,Vietstock 16/01/2026,
+Q4/2025,exp_brokerage,150.0,Vietstock 16/01/2026,'nearly 150' – approximate
+Q4/2025,rev_lending,155.9,Vietstock 16/01/2026,
+Q4/2025,pbt,11.7,Vietstock 16/01/2026,
+Q4/2025,lending_total,5832.0,Vietstock 16/01/2026,loans + advances
+Q1/2026,total_operating_revenue,395.0,Vietstock 18/04/2026,'over 395'
+Q1/2026,rev_brokerage,119.5,Vietstock 18/04/2026,
+Q1/2026,exp_brokerage,137.8,Vietstock 18/04/2026,
+Q1/2026,rev_lending,147.5,Vietstock 18/04/2026,
+Q1/2026,pbt,14.2,Vietstock 18/04/2026,'nearly 14.2'
+Q1/2026,lending_total,5910.0,Vietstock 18/04/2026,loans + advances
+Q1/2026,borrow_cost_loans,119.6,BA (check.pdf),code 24 Q1 less provision
+Q2/2026,total_operating_revenue,453.1,Tin nhanh chứng khoán 21/07/2026,
+Q2/2026,rev_brokerage,102.5,Tin nhanh chứng khoán 21/07/2026,
+Q2/2026,exp_brokerage,128.7,Derived,[ESTIMATE] H1 (BA) − Q1 (press)
+Q2/2026,rev_lending,188.6,Tin nhanh chứng khoán 21/07/2026,
+Q2/2026,pbt,98.9,Tin nhanh chứng khoán 21/07/2026,
+Q2/2026,lending_total,6303.0,Tin nhanh chứng khoán 21/07/2026,loans + advances
+Q2/2026,borrow_cost_loans,120.39999999999999,BA (check.pdf),code 24 Q2 less provision
+FY2025,total_operating_revenue,1467.0,Vietstock 16/01/2026,"'over 1,467'"
+FY2025,rev_brokerage,404.0,Vietstock 16/01/2026,
+FY2025,rev_lending,555.8,Vietstock 16/01/2026,
+FY2025,pbt,340.2,Vietstock 16/01/2026,
