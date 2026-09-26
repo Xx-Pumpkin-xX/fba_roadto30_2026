@@ -1,8 +1,10 @@
 ,New investors,Margin,Derivatives,leader
-Base,2.6666666666666665,3.3333333333333335,3.3333333333333335,Margin = Derivatives
-Funding cost B (interest only),2.6666666666666665,4.0,3.3333333333333335,Margin
-Alt momentum windows (18M / 6M / 6M),2.3333333333333335,3.3333333333333335,3.0,Margin
-Derivatives efficiency = 3,2.6666666666666665,3.3333333333333335,3.6666666666666665,Derivatives
-Drop 2.1 Momentum,3.0,3.5,2.5,Margin
-Drop 2.2 Headroom,1.5,3.0,3.5,Derivatives
-Drop 2.3 Efficiency,3.5,3.5,4.0,Derivatives
+Base,3.25,3.75,3.75,Margin = Derivatives
+Alt momentum windows (18M / 6M / 6M),3.0,3.75,3.75,Margin = Derivatives
+Derivatives efficiency = 3,3.25,3.75,4.0,Derivatives
+"2.4 alt prices (margin promo, deriv top tier)",3.25,3.75,2.5,Margin
+2.4 unknown cell = Yes (VPS margin alerts),3.25,3.75,3.75,Margin = Derivatives
+Drop 2.1 Momentum,3.6666666666666665,4.0,3.3333333333333335,Margin
+Drop 2.2 Headroom,2.6666666666666665,3.6666666666666665,4.0,Derivatives
+Drop 2.3 Efficiency,4.0,4.0,4.333333333333333,Derivatives
+Drop 2.4 Capability & price,2.6666666666666665,3.3333333333333335,3.3333333333333335,Margin = Derivatives

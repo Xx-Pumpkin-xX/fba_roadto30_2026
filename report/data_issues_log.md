@@ -57,3 +57,51 @@ All **81** spreadsheet formulas were re-computed in Python and matched (`data/cl
 | D15 | Only MBS is bank-affiliated in the sample; the bank-funding hypothesis cannot be tested well | Team |
 | – | Source IDs S5–S7, M1.1–M4.2, D1–D7, A1, A2 are cited but undefined; several cells have no source | BA |
 | – | Source of DSE stock-brokerage share 1.92% (`2.2_NewInvestors!B6`) – immaterial to the score below 6.5% | BA |
+
+## 5. Corrections from official statements (26/09/2026)
+
+Sources: financial statements of SSI, VND, HCM, VCI, MBS (Q4/2024 to Q2/2026) and DNSE annual reports 2024-2025, downloaded from official channels. Every figure with its page reference is in `data/sources/extracted_from_official_statements.csv`.
+
+| Code | Change | Before | After | Source |
+|---|---|---|---|---|
+| R1 | Peers' income-statement code 24 checked | Unknown | SSI −41.4 bn (net reversal), VND provisions only, VCI 0, MBS 0.48 bn → no hidden borrowing cost; DSE stays #4 of 6 on net spread | Q2/2026 and Q4/2025 statements |
+| D16 | HCM funding cost | — | No change: HCM books all borrowing cost in code 24 and the BA's 1,031.6 bn is that line | HCM Q4/2025 statement |
+| D17 | DSE total loans Q4/2024 | 3,785 (margin only) | 3,881.59 (margin + advances) | DNSE Annual Report 2025, note 7(c) |
+| D18 | SSI / VND / MBS Q4/2025 in `2.1_Margin` | 38,616 / 13,647 / 14,517 (margin only) | 38,940 / 14,319 / 15,041 (code 114) | Q4/2025 statements |
+| D19 | DSE and VCI Q2/2025 | — | Kept; not yet verified (limitation) | — |
+| D20 | New-account share | Press figures, mixed periods | FY2024 21.6%; 2025 by quarter 34/18/16/19%; FY2025 20.1% | DNSE Annual Reports 2024, 2025 |
+| D21 | Derivatives share | 25.38% and 25.47% both used | 25.38% (Q2/2026) only | HNX quarterly |
+| M1 | Margin and derivatives momentum | 12-month change on a mixed series | Average P0 (Q4/2024–Q2/2025) vs average P1 (Q4/2025–Q2/2026) on a consistent total-loans series | Masterplan 4.2 |
+| M2 | Funding-cost scenario B (interest expense only) | In sensitivity check | Removed (peers' code 24 now verified) | — |
+
+Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new investors 2.67, three of five measures), but every figure is now traceable to an official statement.
+
+## 6. Open items (as of 26/09/2026)
+
+- (Superseded by section 8.)
+- Derivatives efficiency is a judgement score (2); the Masterplan rule for missing data would give 3 and change the leader. To be decided by the team.
+- DSE stock-brokerage share 1.92% is not in DNSE's annual reports (only HNX 3.12% is disclosed).
+- DSE and VCI Q2/2025 total loans not yet verified; market-wide new accounts Q4/2024 pending.
+
+## 7. Capability and competition (26/09/2026, draft)
+
+- **D21:** only one derivatives share is used: 25.38% (Q2/2026, HNX quarterly).
+- **D22:** TCBS's 0.03% is the exchange fee, so TCBS's brokerage fee is counted as 0. Per the Leader, the %-based price indicators ignore exchange fees.
+- **Table 3 (capability):** 88 cells (22 features × 4 brokers). 18 cells are provisional "Yes" awaiting confirmation; six of them are high-risk and are tested as "No" in scenario B.
+- **Price data** comes from sheet `2.5_Pricing` of the BA dataset v2 (published fee schedules). Known issues:
+  - Source IDs are reused across sheets.
+  - The promo "reach" column is really a per-client cap.
+- **Scores for 2.4 and 2.5 are drafts.** The rules are shown in section 5b of the notebook and await team approval.
+
+## 8. Update 26/09/2026 (evening): quarterly statements, verified sources, new 2.4 rule
+
+- **D19 (closed):** DSE Q2/2025 total loans = 5,052.62 bn (code 114, Q2/2025 statement); the dataset's 4,835 was margin-only. VCI Q2/2025 = 11,306.62 bn, matches the dataset.
+- **D23:** codes 06, 03 and 114 read for 6 brokers × Q3/2025–Q2/2026 from 24 statements (`data/sources/bctc_quarterly_4Q_official.csv`). Quarterly flows reconcile to the cumulative 6M/9M/FY columns; Q1+Q2/2026 match the dataset's H1 figures within 0.6 bn. Four OCR misreads were caught and visually corrected (VND Q1/2026 code 114, MBS Q1/2026 codes 114 and 06, VCI Q2/2026 code 03).
+- **D24:** derivatives shares Q3/2025–Q2/2026 match HNX releases (Q1/2026 via Vietstock citing HNX). 25.47% is the H1/2026 figure, not a quarter.
+- **HNX counts futures volume one-way**, so the ×2 side factor in the revenue estimate is correct.
+- **VSDC new accounts:** Q4/2024 more than 432,000 (DNSE share ≈ 23.0%, an upper bound); Q2/2026 more than 768,000 (DNSE figure not published, left blank).
+- **Derivatives fees split into broker / exchange (2,700) / VSDC (2,550) per contract per side**, with links (`2.4_derivatives_fee_3cols.csv`). SSI's broker fee is taken from the dataset (link supplied, not re-read).
+- **Table 3:** all 18 provisional cells checked by a teammate. Nobody offers a stock demo account; VPS has no client API and copy-trade only in its derivatives app; VPS real-time margin-call alerts remain "Unknown".
+- **2.4 rule changed (Leader):** 2.5 merged into 2.4, scored 0 / 2.5 / 5 against the market (features + price vs peer median). All three groups score 5 (net +1, price below median, no parity gaps).
+- **Result:** margin 3.75 = derivatives 3.75 > new investors 3.25; derivatives efficiency = 3 would make derivatives lead (4.00).
+- **Possible origin of "1.92%":** Mirae Asset's H1/2026 derivatives share in the same HNX table; not a DNSE figure.

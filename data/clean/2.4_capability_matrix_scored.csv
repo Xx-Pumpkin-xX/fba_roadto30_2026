@@ -1,0 +1,22 @@
+segment,feature_no,feature,DNSE,SSI,TCBS,VPS,n_peers,parity_gap,differentiator,minor_gap
+Derivatives,16,VN30 futures trading in main mobile app,True,True,True,True,3,False,False,False
+Derivatives,17,Conditional orders (stop-loss / take-profit / OCO),True,True,True,True,3,False,False,False
+Derivatives,18,Volume-tiered or zero derivatives fee,True,True,True,True,3,False,False,False
+Derivatives,19,Open API / algorithmic trading,True,True,True,False,2,False,False,False
+Derivatives,20,Built-in charting and technical analysis,True,True,True,True,3,False,False,False
+Derivatives,21,Derivatives demo or education,True,True,True,True,3,False,False,False
+Derivatives,22,Order placement outside trading hours,True,True,True,True,3,False,False,False
+Margin,9,Instant online margin activation,True,True,True,True,3,False,False,False
+Margin,10,Multiple margin packages / rate tiers,True,True,True,True,3,False,False,False
+Margin,11,Interest-free or promotional margin rate,True,True,True,True,3,False,False,False
+Margin,12,Marginable stock list size (write the number),True,True,True,True,3,False,False,False
+Margin,13,Real-time margin-call alerts (push / SMS),True,True,True,False,2,False,False,False
+Margin,14,Online advance of sale proceeds (ung truoc),True,True,True,True,3,False,False,False
+Margin,15,Margin rate shown transparently in app,True,True,True,True,3,False,False,False
+New investors,1,Online account opening with eKYC (same day),True,True,True,True,3,False,False,False
+New investors,3,Odd-lot / fractional share trading in app,True,True,True,True,3,False,False,False
+New investors,4,Beginner education content or academy,True,True,True,True,3,False,False,False
+New investors,5,Paper trading / demo account,False,False,False,False,0,False,False,False
+New investors,6,Referral or first-trade reward programme,True,True,True,True,3,False,False,False
+New investors,7,"Copy-trade, model portfolio or robo-advice",False,False,True,False,1,False,False,True
+New investors,8,Small-ticket investing (fund / bond / periodic DCA),True,True,True,True,3,False,False,False

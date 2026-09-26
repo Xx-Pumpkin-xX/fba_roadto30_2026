@@ -1,115 +1,29 @@
-ticker,period,variable,value,unit,source,in_fixed_sample
-DSE,Q4/2025,equity,4302.33,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q2/2026,equity,5441.46,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q4/2025,financial_debt,10600.03,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q2/2026,financial_debt,9446.16,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q2/2026,cash,841.92,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2026,interest_expense,75.21,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
-SSI,Q4/2025,equity,31054.0,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,Q2/2026,equity,39592.0,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,Q4/2025,financial_debt,60160.5,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,Q2/2026,financial_debt,54038.27,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,Q2/2026,cash,531.52,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2026,interest_expense,1519.65,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
-VND,Q4/2025,equity,20902.91,VND bn,Team B dataset (BA) – source ID pending,True
-VND,Q2/2026,equity,21432.12,VND bn,Team B dataset (BA) – source ID pending,True
-VND,Q4/2025,financial_debt,28460.74,VND bn,Team B dataset (BA) – source ID pending,True
-VND,Q2/2026,financial_debt,25643.38,VND bn,Team B dataset (BA) – source ID pending,True
-VND,Q2/2026,cash,1325.72,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2026,interest_expense,699.04,VND bn,Team B dataset (BA) – source ID pending,True
-VND,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
-HCM,Q4/2025,equity,14543.14,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,Q2/2026,equity,14639.79,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,Q4/2025,financial_debt,30889.15,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,Q2/2026,financial_debt,26093.23,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,Q2/2026,cash,2202.39,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2026,interest_expense,1031.6,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
-VCI,Q4/2025,equity,18009.9,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,Q2/2026,equity,17137.89,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,Q4/2025,financial_debt,16064.55,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,Q2/2026,financial_debt,21703.63,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,Q2/2026,cash,3648.93,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2026,interest_expense,590.97,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,static,bank_affiliated,0.0,0/1,Team B dataset (BA) – source ID pending,True
-MBS,Q4/2025,equity,7994.8,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,Q2/2026,equity,11941.66,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,Q4/2025,financial_debt,19291.63,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,Q2/2026,financial_debt,18186.0,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,Q2/2026,cash,3499.34,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2026,interest_expense,594.14,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,static,bank_affiliated,1.0,0/1,Team B dataset (BA) – source ID pending,True
-DSE,Q4/2025,lending_total,5832.2,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q2/2026,lending_total,6303.1,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2026,rev_lending,336.1,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2026,borrow_cost_loans,239.96142005299998,VND bn,"DNSE FS 6M/2026, IS code 24 / note 29 (via BA)",True
-SSI,Q4/2025,lending_total,38940.1,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,Q2/2026,lending_total,40472.6,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2026,rev_lending,2141.4,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
-VND,Q4/2025,lending_total,14319.0,VND bn,Team B dataset (BA) – source ID pending,True
-VND,Q2/2026,lending_total,12859.04,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2026,rev_lending,777.98,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
-HCM,Q4/2025,lending_total,28150.1,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,Q2/2026,lending_total,29023.5,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2026,rev_lending,1531.3,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
-VCI,Q4/2025,lending_total,16167.2,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,Q2/2026,lending_total,17145.8,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2026,rev_lending,877.5,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
-MBS,Q4/2025,lending_total,15040.6,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,Q2/2026,lending_total,16828.1,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2026,rev_lending,904.7,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2026,borrow_cost_loans,0.0,VND bn,Not separated yet (set to 0) – R1,True
-DSE,H1/2025,rev_brokerage,122.8,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2025,exp_brokerage,145.1,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2026,rev_brokerage,222.1,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,H1/2026,exp_brokerage,266.5,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2025,rev_brokerage,795.8,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2025,exp_brokerage,600.1,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2026,rev_brokerage,1069.0,VND bn,Team B dataset (BA) – source ID pending,True
-SSI,H1/2026,exp_brokerage,706.2,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2025,rev_brokerage,353.4,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2025,exp_brokerage,236.2,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2026,rev_brokerage,381.6,VND bn,Team B dataset (BA) – source ID pending,True
-VND,H1/2026,exp_brokerage,267.3,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2025,rev_brokerage,397.1,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2025,exp_brokerage,305.0,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2026,rev_brokerage,521.0,VND bn,Team B dataset (BA) – source ID pending,True
-HCM,H1/2026,exp_brokerage,401.7,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2025,rev_brokerage,370.4,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2025,exp_brokerage,292.4,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2026,rev_brokerage,565.6,VND bn,Team B dataset (BA) – source ID pending,True
-VCI,H1/2026,exp_brokerage,349.1,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2025,rev_brokerage,325.4,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2025,exp_brokerage,279.9,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2026,rev_brokerage,404.9,VND bn,Team B dataset (BA) – source ID pending,True
-MBS,H1/2026,exp_brokerage,349.4,VND bn,Team B dataset (BA) – source ID pending,True
-DSE,Q4/2024,margin_reported,3785.0,VND bn,BA source M1.1,True
-SSI,Q4/2024,margin_reported,21999.0,VND bn,BA source M1.2,True
-VND,Q4/2024,margin_reported,10344.0,VND bn,BA source M1.2,True
-HCM,Q4/2024,margin_reported,20429.0,VND bn,BA source M1.2,True
-VCI,Q4/2024,margin_reported,11222.0,VND bn,BA source M1.2,True
-MBS,Q4/2024,margin_reported,10294.0,VND bn,BA source M1.2,True
-DSE,Q2/2025,margin_reported,4835.0,VND bn,BA source M2.1,True
-SSI,Q2/2025,margin_reported,33134.0,VND bn,BA source M2.2,True
-VND,Q2/2025,margin_reported,10644.0,VND bn,BA source M2.2,True
-HCM,Q2/2025,margin_reported,19813.0,VND bn,BA source M2.2,True
-VCI,Q2/2025,margin_reported,11307.0,VND bn,BA source M2.2,True
-MBS,Q2/2025,margin_reported,12796.0,VND bn,BA source M2.2,True
-DSE,Q4/2025,margin_reported,5832.0,VND bn,BA source M3.1,True
-SSI,Q4/2025,margin_reported,38616.0,VND bn,BA source M3.2,True
-VND,Q4/2025,margin_reported,13647.0,VND bn,BA source M3.2,True
-HCM,Q4/2025,margin_reported,28150.0,VND bn,BA source M3.2,True
-VCI,Q4/2025,margin_reported,16167.0,VND bn,BA source M3.2,True
-MBS,Q4/2025,margin_reported,14517.0,VND bn,BA source M3.2,True
-DSE,Q2/2026,margin_reported,6303.0,VND bn,BA source M4.1,True
-SSI,Q2/2026,margin_reported,40036.58,VND bn,BA source M4.2,True
-VND,Q2/2026,margin_reported,12663.0,VND bn,BA source M4.2,True
-HCM,Q2/2026,margin_reported,29023.52,VND bn,BA source M4.2,True
-VCI,Q2/2026,margin_reported,16646.46,VND bn,BA source M4.2,True
-MBS,Q2/2026,margin_reported,16670.4,VND bn,BA source M4.2,True
+ticker,quarter,rev_brokerage_code06_bn,int_loans_receivables_code03_bn,total_loans_code114_bn,dse_share_of_sample_loans,source,unit
+DSE,Q3/2025,156.169,171.171,5750.067,0.05242408945819551,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SSI,Q3/2025,921.757,1005.983,39231.449,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VND,Q3/2025,387.46,387.856,14843.503,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+HCM,Q3/2025,506.66,641.575,20215.716,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VCI,Q3/2025,372.14,313.845,13944.748,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+MBS,Q3/2025,369.558,408.092,15698.196,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SAMPLE_TOTAL,Q3/2025,2713.744,2928.522,109683.679,,sum of 6 brokers,"VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+DSE,Q4/2025,125.005,185.851,5832.191,0.04923789586716868,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SSI,Q4/2025,628.451,1098.422,38940.059,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VND,Q4/2025,230.981,407.053,14319.105,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+HCM,Q4/2025,285.377,731.522,28150.107,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VCI,Q4/2025,257.096,376.268,16167.186,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+MBS,Q4/2025,228.54,429.073,15040.585,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SAMPLE_TOTAL,Q4/2025,1755.45,3228.189,118449.233,,sum of 6 brokers,"VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+DSE,Q1/2026,119.524,147.475,5909.548,0.05103443573152154,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SSI,Q1/2026,606.222,1049.94,36928.299,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VND,Q1/2026,233.429,403.986,12683.253,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+HCM,Q1/2026,324.313,765.252,28140.477,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VCI,Q1/2026,338.866,414.534,16613.355,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+MBS,Q1/2026,241.339,439.334,15520.372,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SAMPLE_TOTAL,Q1/2026,1863.693,3220.5209999999997,115795.304,,sum of 6 brokers,"VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+DSE,Q2/2026,102.525,188.602,6303.065,0.051398198424877965,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SSI,Q2/2026,462.23,1091.489,40472.551,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VND,Q2/2026,148.225,373.989,12859.039,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+HCM,Q2/2026,196.653,765.985,29023.523,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+VCI,Q2/2026,226.665,463.024,17145.79,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+MBS,Q2/2026,163.614,465.441,16828.054,,"Company FS (consolidated where published), see data/sources/bctc_quarterly_4Q_official.csv","VND bn; code 06/03 = quarter flow, code 114 = end of quarter"
+SAMPLE_TOTAL,Q2/2026,1299.912,3348.53,122632.022,,sum of 6 brokers,"VND bn; code 06/03 = quarter flow, code 114 = end of quarter"

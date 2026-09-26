@@ -10,3 +10,12 @@ D01,2.1_Margin / 2.3_Margin,HCM,"Reported 'margin' Q4/2025, Q2/2026 is actually 
 D01,2.1_Margin / 2.3_Margin,VCI,Reported 'margin' Q4/2025 is actually total loans (advances < 1 bn),Use total loans (2.3_Margin E/H) for all six brokers,,
 D02,2.3_Margin,O2 (DSE),"Hard-coded 240 bn borrowing cost; BA located the source (6M/2026 FS, code 24, note 29)",Use exact value = 248.926 - 8.964 bn,240.0,239.961
 D02b,2.3_Margin,O3:O7,Peers may also book borrowing costs in code 24 but are set to 0,Kept at 0; break-even computed in section 4.2; pending BA split of code 24,,
+D16,2.3_Margin,T5/O5 (HCM),"HCM books ALL borrowing costs in code 24 (FY2025 VND 1,452.77 bn; no separate interest-expense line)","Checked: the 1,031.6 bn the BA recorded as H1/2026 interest expense IS code 24 -> kept; O5 = 0 is correct (avoids double counting)",,
+D17,2.1_Margin,C2 (DSE Q4/2024),"DSE Q4/2024 (3,785) is margin-only while later dates are total loans","Replaced by total loans 3,881.59 bn (DNSE Annual Report 2025, note 7c)",3785,3881.59
+D18,2.1_Margin,"C15,C16,C19 (Q4/2025)","SSI, VND, MBS Q4/2025 in 2.1_Margin are margin-only","Use total loans, code 114 (= 2.3_Margin E, verified against the statements)","38,616 / 13,647 / 14,517","38,940 / 14,319 / 15,041"
+D19,2.1_Margin,"C8, C12 (Q2/2025)","DSE Q2/2025 (4,835) is margin-only; VCI Q2/2025 not yet verified","Checked against Q2/2025 statements: DSE total loans 5,052.62 bn (fixed); VCI 11,306.62 bn (matches BA)",4835,5052.62
+D23,(new),24 statements,"Leader needs quarterly Q3/2025-Q2/2026 figures (codes 06, 03, 114)",Read from statements; Q1+Q2/2026 match the BA H1 figures (max gap 0.55 bn),,
+D20,2.1_NewInvestors,C2:C5,New-account shares came from press and mixed period types,Use DNSE annual-report figures: FY2024 21.6%; Q1-Q4/2025 = 34/18/16/19%; FY2025 20%,,
+D24,2.1_Derivatives,O5:O8,Sources D4-D7 had no link,"Checked against HNX releases (Q3/25, Q4/25, Q2/26) and Vietstock citing HNX (Q1/26): 4/4 match",,
+D21,2.3_Derivatives,G3,Two derivatives-share figures (25.38% Q2/2026 and 25.47% H1/2026),"Use 25.38% only (Q2/2026, same quarterly HNX source as momentum)",0.2547,0.2538
+D22,2.5_Pricing,D4 (TCBS),"TCBS 0.03% is the exchange fee, not a brokerage fee",TCBS brokerage fee set to 0 (Leader: ignore exchange fees),0.0003,0.0

@@ -3,6 +3,13 @@ P1,"Vietstock 16/01/2026 – DNSE Q4/2025 results (loans + advances 5,832 bn)",h
 P2,"Vietstock 18/04/2026 – DNSE Q1/2026 results (loans + advances 5,910 bn)",https://vietstock.vn/2026/04/dnse-noi-tiep-da-tang-truong-doanh-thu-va-du-no-margin-737-1429717.htm,2026-09-25,VND bn,C,verified
 P3,"Tin nhanh chứng khoán 21/07/2026 – DNSE Q2/2026 results (6,303 bn; H1 derivatives share 25.47%)",https://www.tinnhanhchungkhoan.vn/du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-cua-dnse-dat-ky-luc-tren-6300-ty-dong-post394383.html,2026-09-25,VND bn,C,verified
 F1,"DNSE financial statements 6M/2026, income statement code 24 + note 29 (borrowing cost of loans 239.96 bn)",https://ir.dnse.com.vn/vi/ctype-finance_report,2026-09-25,VND,A,verified by BA (check.pdf)
+F2,"DNSE Annual Report 2025 (FS notes 7c, 27; new accounts Hinh 21; HNX share 3.12%; bond DSE125018 8.3%)",https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,VND,A,verified
+F3,DNSE Annual Report 2024 (new accounts 2024; 21.6% share of new accounts),https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,accounts,A,verified
+F4,"SSI financial statements Q4/2024, Q2/2025, Q4/2025, Q2/2026 (code 114 total loans, code 06, code 24)",https://www.ssi.com.vn/quan-he-nha-dau-tu/bao-cao-tai-chinh,2026-09-26,VND,A,verified
+F5,"VND financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24 + note 27)",https://24hmoney.vn/stock/VND/financial-report,2026-09-26,VND,A,verified
+F6,"HCM financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24 borrowing cost)",https://24hmoney.vn/stock/HCM/financial-report,2026-09-26,VND,A,verified
+F7,"VCI financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24)",https://24hmoney.vn/stock/VCI/financial-report,2026-09-26,VND,A,verified
+F8,"MBS financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24)",https://24hmoney.vn/stock/MBS/financial-report,2026-09-26,VND,A,verified
 S5,Team B dataset source ID – details pending,,,,,PENDING BA
 S6,Team B dataset source ID – details pending,,,,,PENDING BA
 S7,Team B dataset source ID – details pending,,,,,PENDING BA
@@ -17,9 +24,9 @@ M4.2,Team B dataset source ID – details pending,,,,,PENDING BA
 D1,Team B dataset source ID – details pending,,,,,PENDING BA
 D2,Team B dataset source ID – details pending,,,,,PENDING BA
 D3,Team B dataset source ID – details pending,,,,,PENDING BA
-D4,Team B dataset source ID – details pending,,,,,PENDING BA
-D5,Team B dataset source ID – details pending,,,,,PENDING BA
-D6,Team B dataset source ID – details pending,,,,,PENDING BA
-D7,Team B dataset source ID – details pending,,,,,PENDING BA
 A1,Team B dataset source ID – details pending,,,,,PENDING BA
 A2,Team B dataset source ID – details pending,,,,,PENDING BA
+F9,"Quarterly statements Q3/2025-Q2/2026, six brokers (codes 06, 03, 114) – data/sources/bctc_quarterly_4Q_official.csv",company IR sites,2026-09-26,VND,A,verified
+D4-D7,HNX quarterly derivatives brokerage shares – data/sources/derivatives_share_links.csv,hnx.vn,2026-09-26,%,A,verified
+V1,"VSDC new accounts Q4/2024, Q2/2026 (via press) – data/sources/new_accounts_vsdc.csv",nhadautu.vn; baomoi.com,2026-09-26,accounts,C,verified
+FEE,Derivatives fee schedules DNSE/VPS/TCBS/SSI + consolidated circular 30/2026/VBHN-BTC,see derivatives_fee_3cols.csv,2026-09-26,VND/contract,A,verified (SSI from BA)

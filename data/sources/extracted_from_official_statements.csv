@@ -1,0 +1,55 @@
+﻿ticker,period,item,value_VND_or_ratio,source,note
+SSI,6M/2026,code24_total_provisions_and_borrowing_cost_of_loans,-41430209228,"SSI_BCTC_HopNhat_Q2-2026.pdf p.8 (IS, code 24)",Net provision reversal; no borrowing cost booked in code 24
+SSI,Q2/2026,code24_total_provisions_and_borrowing_cost_of_loans,0,SSI_BCTC_HopNhat_Q2-2026.pdf p.8,
+SSI,6M/2026,interest_expense,1519650474147,SSI_BCTC_HopNhat_Q2-2026.pdf p.9 (Chi phí lãi vay),Matches BA dataset 2.2_Margin!T3
+VND,6M/2026,code24_total_provisions_and_borrowing_cost_of_loans,-311389719506,VND_BCTC_HopNhat_Q2-2026.pdf p.8 (IS) + note 27 p.52,"Note 27: only provisions (loans +6.13bn, receivables -332.14bn, FA impairment +14.62bn); borrowing cost of loans = 0"
+VND,6M/2026,rev_lending_loans_and_receivables,777975374625,VND_BCTC_HopNhat_Q2-2026.pdf note 26.4 p.52,Matches BA dataset 2.3_Margin!J4
+VND,6M/2026,exp_brokerage,267279031255,VND_BCTC_HopNhat_Q2-2026.pdf p.8,Matches BA dataset 2.3_Brokerage!G4
+MBS,6M/2026,code24_total_provisions_and_borrowing_cost_of_loans,477824944,"MBS_BCTC_HopNhat_Q2-2026.pdf p.9 (IS, code 24; page scanned rotated)","Upper bound for borrowing cost of loans = 0.48bn, far below break-even 21bn"
+MBS,6M/2026,exp_brokerage,349396961605,MBS_BCTC_HopNhat_Q2-2026.pdf p.9,Matches BA dataset 2.3_Brokerage!G7
+DSE,31/12/2025,margin_loans,5248085441739,"DNSE_BCTN_2025.pdf, FS note 7(c)",
+DSE,31/12/2025,sale_proceeds_advances,584105681573,"DNSE_BCTN_2025.pdf, FS note 7(c)",
+DSE,31/12/2025,total_loans,5832191123312,"DNSE_BCTN_2025.pdf, balance sheet code 114",
+DSE,31/12/2024,margin_loans,3783968871148,"DNSE_BCTN_2025.pdf, FS note 7(c) comparative","BA dataset Q4/2024 = 3,785 is margin-only, while Q4/2025 = 5,832 is total -> DSE series mixes definitions over time"
+DSE,31/12/2024,sale_proceeds_advances,97616604922,"DNSE_BCTN_2025.pdf, FS note 7(c) comparative",
+DSE,31/12/2024,total_loans,3881585476070,"DNSE_BCTN_2025.pdf, balance sheet comparative",
+DSE,31/12/2025,equity,4302330000000,"DNSE_BCTN_2025.pdf, key figures table (4,302,330 m)",Matches BA dataset
+DSE,FY2025,rev_brokerage,404020124118,"DNSE_BCTN_2025.pdf, IS code 06",
+DSE,FY2025,exp_brokerage_total,464856089316,"DNSE_BCTN_2025.pdf, note 27",
+DSE,FY2025,exp_brokerage_exchange_transaction_fees,195747550421,"DNSE_BCTN_2025.pdf, note 27 (Phí giao dịch chứng khoán môi giới)",
+DSE,FY2025,exp_brokerage_partner_commission,166181240933,"DNSE_BCTN_2025.pdf, note 27 (Chi phí hoa hồng môi giới)",= 41% of gross brokerage revenue; = 80% of revenue net of exchange fees (Leader cites 83%)
+DSE,FY2024,exp_brokerage_partner_commission,52796100635,"DNSE_BCTN_2025.pdf, note 27 comparative",
+DSE,FY2024,rev_brokerage,144838599511,"DNSE_BCTN_2025.pdf, IS comparative",
+DSE,2025,bond_DSE125018_coupon,0.083,"DNSE_BCTN_2025.pdf, FS note bonds issued","1,000bn, maturity 2027 (source of Leader's 8.3%); DSE125004: 8.5%, 300bn"
+DSE,Q1/2025,new_accounts,131122,"DNSE_BCTN_2025.pdf, Hình 21 p.58","market 388,089 -> share 34%"
+DSE,Q2/2025,new_accounts,104785,"DNSE_BCTN_2025.pdf, Hình 21","market 583,849 -> 18%"
+DSE,Q3/2025,new_accounts,127344,"DNSE_BCTN_2025.pdf, Hình 21","market 773,999 -> 16%"
+DSE,Q4/2025,new_accounts,155263,"DNSE_BCTN_2025.pdf, Hình 21","market 828,008 -> 19%"
+DSE,FY2025,new_accounts,518514,"DNSE_BCTN_2025.pdf, Hình 21","market 2,573,945 -> 20%; H1/2025 = 24.3%"
+DSE,FY2025,new_accounts_via_B2B2C_partners,400000,"DNSE_BCTN_2025.pdf, B2B2C section ('gần 400.000')",= 77% of DSE new accounts (source of Leader's 77%)
+DSE,FY2025,HNX_stock_brokerage_share,0.0312,"DNSE_BCTN_2025.pdf, highlights ('Top 6 ... HNX (3,12%)')",1.92% NOT found in annual reports
+DSE,FY2025,derivatives_brokerage_share,0.2147,"DNSE_BCTN_2025.pdf, highlights",
+DSE,FY2024,new_accounts,433532,DNSE_BCTN_2024.pdf monthly table (sum) / BCTN 2025 Hình 22,"Q1 120,179; Q2 92,889; Q3 120,955; Q4 99,509; share 2024 = 21.6%; ~75% via ZaloPay"
+SSI,31/12/2024,total_loans_code114,21998601885375,SSI_BCTC_Q4-2025.pdf p.4 (comparative),"= BA dataset 2.1_Margin Q4/2024 (21,999) -> BA's Q4/2024 figure is TOTAL loans"
+SSI,30/06/2025,total_loans_code114,33133576529861,SSI_BCTC_Q2-2025.pdf p.4,"= BA dataset Q2/2025 (33,134)"
+SSI,31/12/2025,total_loans_code114,38940059337071,SSI_BCTC_Q4-2025.pdf p.4,"= BA 2.3_Margin!E3; BA 2.1_Margin Q4/2025 (38,616) is margin-only"
+SSI,FY2025,rev_brokerage_code06,2344721484003,SSI_BCTC_Q4-2025.pdf p.10 (cumulative),
+VND,31/12/2024,total_loans_code114,10343627985292,VND_BCTC_Q4-2025.pdf p.5 (comparative),"= BA Q4/2024 (10,344)"
+VND,30/06/2025,total_loans_code114,10643745217587,VND_BCTC_Q2-2025.pdf p.5 (OCR),"= BA Q2/2025 (10,644)"
+VND,31/12/2025,total_loans_code114,14319104587203,VND_BCTC_Q4-2025.pdf p.5,"= BA 2.3_Margin!E4; BA 2.1 Q4/2025 (13,647) is margin-only"
+VND,FY2025,rev_brokerage_code06,971903928893,VND_BCTC_Q4-2025.pdf p.10 (cumulative),
+HCM,31/12/2024,total_loans_code114,20428526998997,HCM_BCTC_Q4-2025.pdf p.3 (comparative),"= BA Q4/2024 (20,429)"
+HCM,30/06/2025,total_loans_code114,19813125606054,HCM_BCTC_Q2-2025.pdf p.3,"= BA Q2/2025 (19,813)"
+HCM,31/12/2025,total_loans_code114,28150106595588,HCM_BCTC_Q4-2025.pdf p.3,= BA 2.3_Margin!E5
+HCM,FY2025,rev_brokerage_code06,1189102316583,HCM_BCTC_Q4-2025.pdf p.7 (cumulative),
+HCM,FY2025,code24_borrowing_cost_of_loans,1452771109720,HCM_BCTC_Q4-2025.pdf p.7 (line 24 'Chi phí đi vay của các khoản cho vay'),!! HCM books borrowing cost in code 24 (Q4/2025 alone 470.7bn). BA dataset sets HCM O5 = 0 -> HCM funding cost UNDERSTATED. Need HCM Q2/2026 FS for H1/2026 value
+VCI,31/12/2024,total_loans_code114,11221685642375,VCI_BCTC_Q4-2025.pdf p.5 (comparative),"= BA Q4/2024 (11,222)"
+VCI,31/12/2025,total_loans_code114,16167186026981,VCI_BCTC_Q4-2025.pdf p.5,= BA 2.3_Margin!E6
+VCI,FY2025,rev_brokerage_code06,1000205685000,VCI_BCTC_Q4-2025.pdf p.8 (cumulative; page rotated),
+VCI,FY2025,code24_total,0,VCI_BCTC_Q4-2025.pdf p.9,No borrowing cost in code 24
+VCI,30/06/2025,total_loans_code114,,VCI_BCTC_Q2-2025.pdf,"NOT extracted (balance sheet page not found by OCR); BA value 11,307 unverified"
+MBS,31/12/2024,total_loans_code114,10293729065183,MBS_BCTC_Q4-2025.pdf p.3 (comparative),"= BA Q4/2024 (10,294)"
+MBS,30/06/2025,total_loans_code114,12796654237518,MBS_BCTC_Q2-2025.pdf p.3,"= BA Q2/2025 (12,796)"
+MBS,31/12/2025,total_loans_code114,15040584813320,MBS_BCTC_Q4-2025.pdf p.3,"= BA 2.3_Margin!E7 (visually verified; OCR first misread 16,040). BA 2.1 Q4/2025 = 14,517 is margin-only"
+MBS,FY2025,rev_brokerage_code06,923466458403,MBS_BCTC_Q4-2025.pdf p.8 (cumulative),
+MBS,FY2025,code24_total,-105482481718,MBS_BCTC_Q4-2025.pdf p.9,Net reversal; no material borrowing cost

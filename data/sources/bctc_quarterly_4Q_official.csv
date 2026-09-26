@@ -1,0 +1,73 @@
+﻿ticker,quarter,fs_code,variable,value_bn,period_type,source_file,statement,check,accessed
+DSE,Q3/2025,114,total_loans_bn,5750.067,end of quarter,DSE_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+DSE,Q3/2025,03,int_loans_receivables_bn,171.171,quarter flow,DSE_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q3/2025,06,rev_brokerage_bn,156.169,quarter flow,DSE_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q4/2025,114,total_loans_bn,5832.191,end of quarter,DSE_BCTC_HopNhat_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+DSE,Q4/2025,03,int_loans_receivables_bn,185.851,quarter flow,DSE_BCTC_HopNhat_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q4/2025,06,rev_brokerage_bn,125.005,quarter flow,DSE_BCTC_HopNhat_Q4-2025.pdf,Income statement (quarter column),= FY2025 404.02 - 9M 279.02,2026-09-26
+DSE,Q1/2026,114,total_loans_bn,5909.548,end of quarter,DSE_BCTC_HopNhat_Q1-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+DSE,Q1/2026,03,int_loans_receivables_bn,147.475,quarter flow,DSE_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q1/2026,06,rev_brokerage_bn,119.524,quarter flow,DSE_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q2/2026,114,total_loans_bn,6303.065,end of quarter,DSE_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+DSE,Q2/2026,03,int_loans_receivables_bn,188.602,quarter flow,DSE_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+DSE,Q2/2026,06,rev_brokerage_bn,102.525,quarter flow,DSE_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q3/2025,114,total_loans_bn,39231.449,end of quarter,SSI_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+SSI,Q3/2025,03,int_loans_receivables_bn,1005.983,quarter flow,SSI_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q3/2025,06,rev_brokerage_bn,921.757,quarter flow,SSI_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q4/2025,114,total_loans_bn,38940.059,end of quarter,SSI_BCTC_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+SSI,Q4/2025,03,int_loans_receivables_bn,1098.422,quarter flow,SSI_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q4/2025,06,rev_brokerage_bn,628.451,quarter flow,SSI_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q1/2026,114,total_loans_bn,36928.299,end of quarter,SSI_BCTC_HopNhat_Q1-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+SSI,Q1/2026,03,int_loans_receivables_bn,1049.94,quarter flow,SSI_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q1/2026,06,rev_brokerage_bn,606.222,quarter flow,SSI_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q2/2026,114,total_loans_bn,40472.551,end of quarter,SSI_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+SSI,Q2/2026,03,int_loans_receivables_bn,1091.489,quarter flow,SSI_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+SSI,Q2/2026,06,rev_brokerage_bn,462.23,quarter flow,SSI_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q3/2025,114,total_loans_bn,14843.503,end of quarter,VND_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VND,Q3/2025,03,int_loans_receivables_bn,387.856,quarter flow,VND_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q3/2025,06,rev_brokerage_bn,387.46,quarter flow,VND_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q4/2025,114,total_loans_bn,14319.105,end of quarter,VND_BCTC_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VND,Q4/2025,03,int_loans_receivables_bn,407.053,quarter flow,VND_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q4/2025,06,rev_brokerage_bn,230.981,quarter flow,VND_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q1/2026,114,total_loans_bn,12683.253,end of quarter,VND_BCTC_HopNhat_Q1-2026.pdf,Balance sheet,"visually verified (OCR read 12,883)",2026-09-26
+VND,Q1/2026,03,int_loans_receivables_bn,403.986,quarter flow,VND_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q1/2026,06,rev_brokerage_bn,233.429,quarter flow,VND_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q2/2026,114,total_loans_bn,12859.039,end of quarter,VND_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VND,Q2/2026,03,int_loans_receivables_bn,373.989,quarter flow,VND_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VND,Q2/2026,06,rev_brokerage_bn,148.225,quarter flow,VND_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q3/2025,114,total_loans_bn,20215.716,end of quarter,HCM_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+HCM,Q3/2025,03,int_loans_receivables_bn,641.575,quarter flow,HCM_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q3/2025,06,rev_brokerage_bn,506.66,quarter flow,HCM_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q4/2025,114,total_loans_bn,28150.107,end of quarter,HCM_BCTC_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+HCM,Q4/2025,03,int_loans_receivables_bn,731.522,quarter flow,HCM_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q4/2025,06,rev_brokerage_bn,285.377,quarter flow,HCM_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q1/2026,114,total_loans_bn,28140.477,end of quarter,HCM_BCTC_HopNhat_Q1-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+HCM,Q1/2026,03,int_loans_receivables_bn,765.252,quarter flow,HCM_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q1/2026,06,rev_brokerage_bn,324.313,quarter flow,HCM_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q2/2026,114,total_loans_bn,29023.523,end of quarter,HCM_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+HCM,Q2/2026,03,int_loans_receivables_bn,765.985,quarter flow,HCM_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+HCM,Q2/2026,06,rev_brokerage_bn,196.653,quarter flow,HCM_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VCI,Q3/2025,114,total_loans_bn,13944.748,end of quarter,VCI_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VCI,Q3/2025,03,int_loans_receivables_bn,313.845,quarter flow,VCI_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),= 9M/2025 828.53 - 6M/2025 514.69; matches OCR digits,2026-09-26
+VCI,Q3/2025,06,rev_brokerage_bn,372.14,quarter flow,VCI_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),OCR garbled; = 9M/2025 743.11 - 6M/2025 370.97 (both from FS),2026-09-26
+VCI,Q4/2025,114,total_loans_bn,16167.186,end of quarter,VCI_BCTC_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VCI,Q4/2025,03,int_loans_receivables_bn,376.268,quarter flow,VCI_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VCI,Q4/2025,06,rev_brokerage_bn,257.096,quarter flow,VCI_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VCI,Q1/2026,114,total_loans_bn,16613.355,end of quarter,VCI_BCTC_Q1-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VCI,Q1/2026,03,int_loans_receivables_bn,414.534,quarter flow,VCI_BCTC_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VCI,Q1/2026,06,rev_brokerage_bn,338.866,quarter flow,VCI_BCTC_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+VCI,Q2/2026,114,total_loans_bn,17145.79,end of quarter,VCI_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+VCI,Q2/2026,03,int_loans_receivables_bn,463.024,quarter flow,VCI_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),visually verified (OCR read 468.02),2026-09-26
+VCI,Q2/2026,06,rev_brokerage_bn,226.665,quarter flow,VCI_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q3/2025,114,total_loans_bn,15698.196,end of quarter,MBS_BCTC_HopNhat_Q3-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+MBS,Q3/2025,03,int_loans_receivables_bn,408.092,quarter flow,MBS_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q3/2025,06,rev_brokerage_bn,369.558,quarter flow,MBS_BCTC_HopNhat_Q3-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q4/2025,114,total_loans_bn,15040.585,end of quarter,MBS_BCTC_Q4-2025.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+MBS,Q4/2025,03,int_loans_receivables_bn,429.073,quarter flow,MBS_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q4/2025,06,rev_brokerage_bn,228.54,quarter flow,MBS_BCTC_Q4-2025.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q1/2026,114,total_loans_bn,15520.372,end of quarter,MBS_BCTC_HopNhat_Q1-2026.pdf,Balance sheet,"visually verified (OCR read 16,520)",2026-09-26
+MBS,Q1/2026,03,int_loans_receivables_bn,439.334,quarter flow,MBS_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q1/2026,06,rev_brokerage_bn,241.339,quarter flow,MBS_BCTC_HopNhat_Q1-2026.pdf,Income statement (quarter column),visually verified (OCR read 241.93),2026-09-26
+MBS,Q2/2026,114,total_loans_bn,16828.054,end of quarter,MBS_BCTC_HopNhat_Q2-2026.pdf,Balance sheet,two independent OCR passes agree / matches BA where available,2026-09-26
+MBS,Q2/2026,03,int_loans_receivables_bn,465.441,quarter flow,MBS_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
+MBS,Q2/2026,06,rev_brokerage_bn,163.614,quarter flow,MBS_BCTC_HopNhat_Q2-2026.pdf,Income statement (quarter column),cross-checked: quarters sum to FS cumulative (6M/9M/FY),2026-09-26
