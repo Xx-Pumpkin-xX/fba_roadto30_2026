@@ -5,7 +5,7 @@
 - **Sample:** DSE, SSI, VND, HCM, VCI, MBS (company data, financial statements Q4/2024–Q2/2026); SSI, VPS, TCBS for features; HNX for derivatives shares.
 - **Lending = total loans (FS code 114)** for every broker, because DNSE does not split margin loans from sale-proceeds advances.
 - **Measures:** 2.1 momentum (share change, P0 = Q4/2024–Q2/2025 vs P1 = Q4/2025–Q2/2026), 2.2 headroom (growth left before a binding limit), 2.3 efficiency (DSE rank among six brokers; derivatives among five with published fees), scored 1–5; 2.4 capability & price (net position vs peers), scored 0 / 2.5 / 5, where 5 requires at least one differentiator.
-- **Checks:** 81 spreadsheet formulas re-computed and matched; quarterly figures reconcile to cumulative FS totals; 22 data fixes logged.
+- **Checks:** 81 spreadsheet formulas re-computed and matched; quarterly figures reconcile to cumulative FS totals; 23 data fixes logged.
 
 ## Findings
 

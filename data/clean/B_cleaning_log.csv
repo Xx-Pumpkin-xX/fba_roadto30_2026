@@ -18,6 +18,7 @@ D23,(new),24 statements,"Leader needs quarterly Q3/2025-Q2/2026 figures (codes 0
 D20,2.1_NewInvestors,C2:C5,New-account shares came from press and mixed period types,Use DNSE annual-report figures: FY2024 21.6%; Q1-Q4/2025 = 34/18/16/19%; FY2025 20%,,
 D24,2.1_Derivatives,O5:O8,Sources D1-D7 had no link,Checked against HNX releases and Vietstock citing HNX: 7/7 quarters match,,
 D25,2.2_Margin,E2 (DSE),"DSE equity at 30/6/2026 taken from the quarterly statement (5,441.46), not the reviewed one","Use the reviewed half-year statement: 5,440.25 bn (from the Leader)",5441.46,5440.25
+D27,2.3_Derivatives,G2,"H1/2026 matched contracts (28,723,229) had no source and do not match HNX","Use the sum of HNX monthly matched volumes (incl. negotiated = 28,733,107)",28723229,28683181
 D21,2.3_Derivatives,G3,Two derivatives-share figures (25.38% Q2/2026 and 25.47% H1/2026),"Use 25.38% only (Q2/2026, same quarterly HNX source as momentum)",0.2547,0.2538
 D22,2.5_Pricing,D4 (TCBS),"TCBS 0.03% is the exchange fee, not a brokerage fee",TCBS brokerage fee set to 0 (Leader: ignore exchange fees),0.0003,0.0
 D26,2.2_NewInvestors,B6,"1.92% is Mirae Asset's H1/2026 derivatives share, not DNSE's stock-brokerage share","DNSE is outside HOSE's top 10 → use the 10th broker's share (2.94%, Q2/2026) as an upper bound (MASTERPLAN)",0.0192,0.0294

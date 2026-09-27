@@ -127,3 +127,8 @@ Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new invest
 - Figures: Figure 8 axes start at 0 with segment colours and FTSE labels at the axis base; Figure 10 right panel on net revenue with VCI dashed; footers wrap; Figure 11 footer names the peers in each panel.
 - `Table4_axis2_scores_DRAFT.csv` renamed `Table4_axis2_scores.csv`; `report/findings_axis2_draft.md` now published.
 - **Open:** 62 Table 3 cells filled from web research still need a named human check (list in team notes).
+
+## 11. H1/2026 derivatives volume (27/09/2026)
+
+- **D27:** the dataset's H1/2026 volume (28,723,229 contracts, no source) matches neither HNX series. HNX monthly statistics give 28,683,181 matched contracts and 28,733,107 including negotiated trades (VN30 futures only; government-bond futures were zero). The notebook now uses the HNX matched total (`data/sources/hnx_derivatives_monthly_H1_2026.csv`).
+- Effect: one extra point of derivatives share ≈ 0.344–1.147 billion VND a year (was 0.345–1.149); the brokerage residual in the ~94 bn analysis becomes 94.2 bn. No score changes.

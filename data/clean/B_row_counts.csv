@@ -1,0 +1,8 @@
+dataset,rows_read,rows_used,note
+Margin loans by broker (2.1_Margin),24,24,6 brokers × 4 dates; margin-only values replaced by total loans (code 114)
+Derivatives top-10 shares (2.1_Derivatives),70,70,7 quarters × 10 brokers; 7/7 DNSE values checked against HNX
+"Balance sheet, lending, brokerage (2.2/2.3)",18,18,6 brokers × 3 tables; 0 rows dropped
+New-account shares (2.1_NewInvestors),4,8,press figures replaced by DNSE-reported quarterly shares
+"Quarterly statements, codes 06/03/114",72,72,24 statements × 3 codes; all reconciled to cumulative totals
+Capability matrix (features × brokers),88,84,feature 2 not scored (price scored separately)
+Long-format dataset (B_dataset_long.csv),114,114,"0 duplicates, 0 missing values"
