@@ -1,29 +1,37 @@
-source_id,description,url,accessed,unit,grade,status
-P1,"Vietstock 16/01/2026 – DNSE Q4/2025 results (loans + advances 5,832 bn)",https://vietstock.vn/2026/01/dnse-dat-ky-luc-du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-737-1391525.htm,2026-09-25,VND bn,C,verified
-P2,"Vietstock 18/04/2026 – DNSE Q1/2026 results (loans + advances 5,910 bn)",https://vietstock.vn/2026/04/dnse-noi-tiep-da-tang-truong-doanh-thu-va-du-no-margin-737-1429717.htm,2026-09-25,VND bn,C,verified
-P3,"Tin nhanh chứng khoán 21/07/2026 – DNSE Q2/2026 results (6,303 bn; H1 derivatives share 25.47%)",https://www.tinnhanhchungkhoan.vn/du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-cua-dnse-dat-ky-luc-tren-6300-ty-dong-post394383.html,2026-09-25,VND bn,C,verified
-F1,"DNSE financial statements 6M/2026, income statement code 24 + note 29 (borrowing cost of loans 239.96 bn)",https://ir.dnse.com.vn/vi/ctype-finance_report,2026-09-25,VND,A,verified by BA (check.pdf)
-F2,"DNSE Annual Report 2025 (FS notes 7c, 27; new accounts Hinh 21; HNX share 3.12%; bond DSE125018 8.3%)",https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,VND,A,verified
-F3,DNSE Annual Report 2024 (new accounts 2024; 21.6% share of new accounts),https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,accounts,A,verified
-F4,"SSI financial statements Q4/2024, Q2/2025, Q4/2025, Q2/2026 (code 114 total loans, code 06, code 24)",https://www.ssi.com.vn/quan-he-nha-dau-tu/bao-cao-tai-chinh,2026-09-26,VND,A,verified
-F5,"VND financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24 + note 27)",https://24hmoney.vn/stock/VND/financial-report,2026-09-26,VND,A,verified
-F6,"HCM financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24 borrowing cost)",https://24hmoney.vn/stock/HCM/financial-report,2026-09-26,VND,A,verified
-F7,"VCI financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24)",https://24hmoney.vn/stock/VCI/financial-report,2026-09-26,VND,A,verified
-F8,"MBS financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24)",https://24hmoney.vn/stock/MBS/financial-report,2026-09-26,VND,A,verified
-S5,Team B dataset source ID – details pending,,,,,PENDING BA
-S6,Team B dataset source ID – details pending,,,,,PENDING BA
-S7,Team B dataset source ID – details pending,,,,,PENDING BA
-M1.1,Team B dataset source ID – details pending,,,,,PENDING BA
-M1.2,Team B dataset source ID – details pending,,,,,PENDING BA
-M2.1,Team B dataset source ID – details pending,,,,,PENDING BA
-M2.2,Team B dataset source ID – details pending,,,,,PENDING BA
-M3.1,Team B dataset source ID – details pending,,,,,PENDING BA
-M3.2,Team B dataset source ID – details pending,,,,,PENDING BA
-M4.1,Team B dataset source ID – details pending,,,,,PENDING BA
-M4.2,Team B dataset source ID – details pending,,,,,PENDING BA
-A1,Team B dataset source ID – details pending,,,,,PENDING BA
-A2,Team B dataset source ID – details pending,,,,,PENDING BA
-F9,"Quarterly statements Q3/2025-Q2/2026, six brokers (codes 06, 03, 114) – data/sources/bctc_quarterly_4Q_official.csv",company IR sites,2026-09-26,VND,A,verified
-D1-D7,HNX quarterly derivatives brokerage shares – data/sources/derivatives_share_links.csv,hnx.vn,2026-09-26,%,A,verified
-V1,"VSDC / DNSE new accounts Q4/2024, Q1/2026, Q2/2026 (via press) – data/sources/new_accounts_vsdc.csv",nhadautu.vn; baomoi.com,2026-09-26,accounts,C,verified
-FEE,Derivatives fee schedules DNSE/VPS/TCBS/SSI + consolidated circular 30/2026/VBHN-BTC,see derivatives_fee_3cols.csv,2026-09-26,VND/contract,A,verified (SSI from BA)
+source_id,description,url,accessed,unit,grade,status,context,use_in_final
+P1,"Vietstock 16/01/2026 – DNSE Q4/2025 results (loans + advances 5,832 bn)",https://vietstock.vn/2026/01/dnse-dat-ky-luc-du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-737-1391525.htm,2026-09-25,VND bn,C,verified,,Supporting only; official FS preferred
+P2,"Vietstock 18/04/2026 – DNSE Q1/2026 results (loans + advances 5,910 bn)",https://vietstock.vn/2026/04/dnse-noi-tiep-da-tang-truong-doanh-thu-va-du-no-margin-737-1429717.htm,2026-09-25,VND bn,C,verified,,Supporting only; official FS preferred
+P3,"Tin nhanh chứng khoán 21/07/2026 – DNSE Q2/2026 results (6,303 bn; H1 derivatives share 25.47%)",https://www.tinnhanhchungkhoan.vn/du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-cua-dnse-dat-ky-luc-tren-6300-ty-dong-post394383.html,2026-09-25,VND bn,C,verified,,Supporting only; official FS preferred
+F1,"DNSE financial statements 6M/2026, income statement code 24 + note 29 (borrowing cost of loans 239.96 bn)",https://ir.dnse.com.vn/vi/ctype-finance_report,2026-09-25,VND,A,verified by BA (check.pdf),,Yes
+F2,"DNSE Annual Report 2025 (FS notes 7c, 27; new accounts Hinh 21; HNX share 3.12%; bond DSE125018 8.3%)",https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,VND,A,verified,,Yes
+F3,DNSE Annual Report 2024 (new accounts 2024; 21.6% share of new accounts),https://ir.dnse.com.vn/vi/ctype-yearly_report,2026-09-26,accounts,A,verified,,Yes
+F4,"SSI financial statements Q4/2024, Q2/2025, Q4/2025, Q2/2026 (code 114 total loans, code 06, code 24)",https://www.ssi.com.vn/quan-he-nha-dau-tu/bao-cao-tai-chinh,2026-09-26,VND,A,verified,,Yes
+F5,"VND financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24 + note 27)",https://www.vndirect.com.vn/danh_muc_bao_cao/thong-tin-tai-chinh/,2026-09-26,VND,A,verified,,Yes
+F6,"HCM financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24 borrowing cost)",https://www.hsc.com.vn/en/financial-statements,2026-09-26,VND,A,verified,,Yes
+F7,"VCI financial statements Q4/2024, Q2/2025, Q4/2025 (code 114, code 06, code 24)",https://www.vietcap.com.vn/en/investor-relations/,2026-09-26,VND,A,verified,,Yes
+F8,"MBS financial statements Q4/2024, Q2/2025, Q4/2025, Q1-Q2/2026 (code 114, code 06, code 24)",https://www.mbs.com.vn/bao-cao-tai-chinh/,2026-09-26,VND,A,verified,,Yes
+F9,"Quarterly statements Q3/2025-Q2/2026, six brokers (codes 06, 03, 114) – data/sources/bctc_quarterly_4Q_official.csv",company IR sites,2026-09-26,VND,A,verified,,Yes
+D1-D7,HNX quarterly derivatives brokerage shares – data/sources/derivatives_share_links.csv,hnx.vn,2026-09-26,%,A,verified,,Yes
+V1,"VSDC / DNSE new accounts Q4/2024, Q1/2026, Q2/2026 (via press) – data/sources/new_accounts_vsdc.csv",nhadautu.vn; baomoi.com,2026-09-26,accounts,C,verified,,Yes
+FEE,Derivatives fee schedules DNSE/VPS/TCBS/SSI + consolidated circular 30/2026/VBHN-BTC,see derivatives_fee_3cols.csv,2026-09-26,VND/contract,A,verified (SSI from BA),,Yes
+H1,"HOSE Q2/2026 top-10 brokerage ranking (10th broker 2.94%), via Tuoi Tre report citing HOSE",https://tuoitre.vn/bat-ngo-top-10-moi-gioi-hose-vcbs-bi-bat-khoi-bang-xep-hang-100260706170029783.htm,2026-09-27,%,C,verified; official HOSE URL not recovered,2.2 new-investor headroom (D26),Yes (upper bound)
+HNX1,HNX H1/2026 derivatives market statistics (monthly packs in hnx_derivatives_monthly_H1_2026.csv),https://upboard.hnx.vn/vi-vn/chi-tiet-tin-60023013-0,2026-09-27,contracts,A,verified,2.3 derivatives run-rate (D27),Yes
+REG1,SSC Decision 87/QĐ-UBCK – margin lending capped at 200% of equity,https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-87-QD-UBCK-huong-dan-giao-dich-ky-quy-chung-khoan-2017-338440.aspx,2026-09-27,% of equity,A,verified,2.2 margin headroom,Yes
+AR25,DNSE Annual Report 2025 (PDF) – also used to validate side_factor = 2 against DNSE-reported contracts,https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf,2026-09-26,various,A,verified,2.1–2.3,Yes
+A1,Legacy BA source ID – DNSE Annual Report 2025,https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf,2026-09-27,,,Resolved,2.2_NewInvestors,"Yes (account base/share, new accounts/share)"
+A2,Legacy BA source ID – HNX 2025 listed-stock brokerage-share page,https://cms.hnx.vn/vi-vn/m-niem-yet/tin-tuc/Thi%20phan%20moi%20gioi%20Co%20phieu%20thi%20truong%20co%20phieu%20niem%20yet%20tren%20HNX%20nam%202025-60022144-0,2026-09-27,,,Resolved but stale for final headroom,2.2_NewInvestors,No; final headroom uses HOSE Q2/2026 2.94% upper bound
+S5,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/cach-dnse-thu-hut-khach-hang-gen-z-649.htm,2026-09-27,,,Resolved,2.1_NewInvestors account base,Historical/supporting only
+S6,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/dnse-noi-dai-chuoi-tang-truong-thi-phan-moi-gioi-chung-khoan-phai-sinh-voi-25-5--thi-phan-782.htm,2026-09-27,,,Resolved,2.1_NewInvestors account base,Historical/supporting only
+S7,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/dnse-vao-top-8-thi-phan-moi-gioi-co-phieu-niem-yet-hnx-quy-ii-2026-827.htm,2026-09-27,,,Resolved,2.1_NewInvestors account base,Historical/supporting only
+S5,Legacy BA source ID – link recovered from original Excel,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,2026-09-27,,,Resolved; ID collision,2.5_Pricing stock fee,"Yes, by explicit variable/URL not source ID"
+S6,Legacy BA source ID – link recovered from original Excel,https://support.vndirect.com.vn/hc/vi/articles/41131353413529-FAQ-Bi%E1%BB%83u-Ph%C3%AD-t%E1%BA%A1i-VNDIRECT,2026-09-27,,,Resolved; ID collision,2.5_Pricing stock fee,"Yes, by explicit variable/URL not source ID"
+S7,Legacy BA source ID – link recovered from original Excel,https://www.mbs.com.vn/bieu-phi-giao-dich-chung-khoan-co-so/,2026-09-27,,,Resolved; ID collision,2.5_Pricing stock fee,"Yes, by explicit variable/URL not source ID"
+M1.1,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/quy-2--loi-nhuan-sau-thue-dnse-tang-115--so-voi-cung-ky--thuc-hien-gan-50--ke-hoach-2025-650.htm,2026-09-27,,,Recovered from Excel; superseded,2.1_Margin Q4/2024 DSE,No; use official FS source pack
+M1.2,Legacy BA source ID – link recovered from original Excel,https://sbbs.com.vn/trung-tam-phan-tich/bao-cao-cong-ty/bao-cao-lan-dau-vci,2026-09-27,,,Recovered from Excel; secondary,2.1_Margin Q4/2024 peer,No; use official FS source pack
+M2.1,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/quy-2--loi-nhuan-sau-thue-dnse-tang-115--so-voi-cung-ky--thuc-hien-gan-50--ke-hoach-2025-650.htm,2026-09-27,,,Recovered from Excel; superseded,2.1_Margin Q2/2025 DSE,No; use official FS source pack
+M2.2,Legacy BA source ID – link recovered from original Excel,https://ftp2.ssi.com.vn/Customers/GDDT/Analyst_Report/Strategy/Bao%20cao%20chien%20luoc%20nam%202026_2025.10.09_SSIResearch.pdf,2026-09-27,,,Recovered from Excel; secondary,2.1_Margin Q2/2025 peers,No; use official FS source pack
+M3.1,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/dnse-dat-ky-luc-du-no-cho-vay-margin-va-ung-truoc-tien-ban-gan-6-000-ty-dong-687.htm,2026-09-27,,,Recovered from Excel,2.1_Margin Q4/2025 DSE,Supporting only; official FS preferred
+M3.2,Legacy BA source ID – link recovered from original Excel,https://nghiencuu.tapchikinhtetaichinh.vn/nghiep-vu-cho-vay-ky-quy-tai-cac-cong-ty-chung-khoan-viet-nam-nhin-tu-cac-phan-tich-va-doi-sanh-154120.html,2026-09-27,,,Recovered from Excel; secondary,2.1_Margin Q4/2025 peers,No; use official FS source pack
+M4.1,Legacy BA source ID – link recovered from original Excel,https://ir.dnse.com.vn/vi/post/doanh-thu-hoat-dong-dnse-tang-gan-60--trong-nua-dau-nam-832,2026-09-27,,,Recovered from Excel,2.1_Margin Q2/2026 DSE,Supporting only; reviewed FS preferred
+M4.2,Legacy BA source ID – link recovered from original Excel,https://smoney.com.vn/du-no-margin,2026-09-27,,,Recovered from Excel; secondary,2.1_Margin Q2/2026 peers,No; use official FS source pack
+S1–S19,"Legacy BA source ID – Exact official fee/product links recovered from the original Excel hyperlinks; see Crosswalk_Final rows stock_brokerage_fee, margin_rate, derivatives_company_fee",see description,2026-09-27,,,Resolved,2.5_Pricing,Yes

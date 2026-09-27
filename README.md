@@ -46,10 +46,10 @@ Key files in `data/clean/`:
 - `Table4_axis2_evidence.csv`: the evidence behind each score.
 - `Table_PL2_axis2_sensitivity.csv`: the sensitivity check.
 - `L_bctc_ctck_quarterly.csv`: six brokers × Q3/2025–Q2/2026, codes 06 (brokerage revenue), 03 (interest on loans) and 114 (total loans), with sample totals.
-- `B_dataset_long.csv` + `B_data_dictionary.csv`: the cleaned long-format dataset and its data dictionary.
+- `B_dataset_long.csv` + `B_data_dictionary.csv`: the cleaned long-format dataset and its data dictionary (28 variables with source, link, period and source tier, from the source audit in `data/sources/source_crosswalk_audit.csv`).
 - `B_cleaning_log.csv`: every fix applied to the data.
 - `B_validation_vs_excel.csv`: the Excel re-computation check.
-- `B_sources.csv`: the source register.
+- `B_sources.csv`: the source register, including legacy BA source IDs recovered in the source audit.
 - `B_total_loans_consistent.csv`: total loans (margin + advances, code 114) for 6 brokers × 4 dates, verified against the statements.
 - `2.4_capability_price_scored.csv`, `2.4_derivatives_fee_3cols.csv`: capability & price scoring and the derivatives fee split (broker / exchange / VSDC).
 

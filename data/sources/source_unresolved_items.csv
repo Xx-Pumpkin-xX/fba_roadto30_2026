@@ -1,0 +1,5 @@
+﻿Item,Why unresolved,Current treatment,Recommended next step,Blocks Appendix A?
+Official HOSE Q2/2026 URL for 2.94% boundary,Not stored in GitHub or original Excel; public article cites HOSE but official HOSE page was not recovered.,Use Tuoi Tre article citing HOSE; label as secondary recovery.,Replace with official HOSE URL if team/leader has it.,"No, if secondary evidence is transparently labelled."
+Some quarter-level exact PDF URLs in bctc_quarterly_4Q_official.csv,Repo stores official PDF filenames/checks but not every external URL.,Use official company financial-report archive pages plus repo source pack.,Optional: enrich source pack with exact PDF URLs.,No.
+HNX monthly derivatives raw PDF URLs,Repo source pack points to local collected PDFs rather than external PDF URLs.,Use HNX H1 summary link + repo monthly source file.,Optional: add each monthly HNX PDF URL.,No.
+Legacy S5–S7 source ID collision,Same IDs are reused for account-base sources and pricing sources in different sheets.,Do not use legacy IDs as global keys.,Use explicit variable/source URLs only.,No.

@@ -4,7 +4,7 @@ D05,2.1_NewInvestors,"B2:B5,H2:H5",Dates stored as text,Parse with dayfirst=True
 D06,2.1_NewInvestors,A5/E5,Label says FY/2025 but period column says Q4/2025,Treated as full-year 2025 (matches the Masterplan); column E renamed source_report,Q4/2025,FY2025
 D07,2.1_NewInvestors,L3,Source_ID holds a reporting period,"Source ID left blank, pending BA",Q4/2025,
 D11,2.3_Derivatives,C6,Text in a numeric column,Use 300 and flag negotiable,300 or upon agreement,300
-D12,2.3_Derivatives,F4,Truncated label '[Asss',Renamed to side_factor [ASSUMPTION] = 2,Brokerage_Side_Factor [Asss,side_factor [ASSUMPTION]
+D12,2.3_Derivatives,F4,Truncated label '[Asss',Renamed to side_factor = 2 (validated: HNX counts contracts one-way; reconciles with DNSE-reported 2025 contracts),Brokerage_Side_Factor [Asss,side_factor [VALIDATED]
 D01,2.1_Margin / 2.3_Margin,DSE,"'Margin' figure Q4/2025, Q2/2026 equals total loans in 2.3_Margin, i.e. already includes advances (DSE: advances 584 bn at end-2025, 178 bn at 30/6/2026)",Use total loans (code 114) for all six brokers,,
 D01,2.1_Margin / 2.3_Margin,HCM,"'Margin' figure Q4/2025, Q2/2026 equals total loans in 2.3_Margin, i.e. already includes advances",Use total loans (code 114) for all six brokers,,
 D01,2.1_Margin / 2.3_Margin,VCI,"'Margin' figure Q4/2025 equals total loans in 2.3_Margin, i.e. already includes advances",Use total loans (code 114) for all six brokers,,

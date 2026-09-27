@@ -1,0 +1,19 @@
+﻿Legacy source ID,Workbook context,Recovered source / URL,Audit status,Use in final crosswalk
+A1,2.2_NewInvestors,DNSE Annual Report 2025 — https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf,Resolved,"Yes (account base/share, new accounts/share)"
+A2,2.2_NewInvestors,HNX 2025 listed-stock brokerage-share page — https://cms.hnx.vn/vi-vn/m-niem-yet/tin-tuc/Thi%20phan%20moi%20gioi%20Co%20phieu%20thi%20truong%20co%20phieu%20niem%20yet%20tren%20HNX%20nam%202025-60022144-0,Resolved but stale for final headroom,No; final headroom uses HOSE Q2/2026 2.94% upper bound
+S5,2.1_NewInvestors account base,https://ir.dnse.com.vn/vi/post/cach-dnse-thu-hut-khach-hang-gen-z-649.htm,Resolved,Historical/supporting only
+S6,2.1_NewInvestors account base,https://ir.dnse.com.vn/vi/post/dnse-noi-dai-chuoi-tang-truong-thi-phan-moi-gioi-chung-khoan-phai-sinh-voi-25-5--thi-phan-782.htm,Resolved,Historical/supporting only
+S7,2.1_NewInvestors account base,https://ir.dnse.com.vn/vi/post/dnse-vao-top-8-thi-phan-moi-gioi-co-phieu-niem-yet-hnx-quy-ii-2026-827.htm,Resolved,Historical/supporting only
+S5,2.5_Pricing stock fee,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,Resolved; ID collision,"Yes, by explicit variable/URL not source ID"
+S6,2.5_Pricing stock fee,https://support.vndirect.com.vn/hc/vi/articles/41131353413529-FAQ-Bi%E1%BB%83u-Ph%C3%AD-t%E1%BA%A1i-VNDIRECT,Resolved; ID collision,"Yes, by explicit variable/URL not source ID"
+S7,2.5_Pricing stock fee,https://www.mbs.com.vn/bieu-phi-giao-dich-chung-khoan-co-so/,Resolved; ID collision,"Yes, by explicit variable/URL not source ID"
+M1.1,2.1_Margin Q4/2024 DSE,https://ir.dnse.com.vn/vi/post/quy-2--loi-nhuan-sau-thue-dnse-tang-115--so-voi-cung-ky--thuc-hien-gan-50--ke-hoach-2025-650.htm,Recovered from Excel; superseded,No; use official FS source pack
+M1.2,2.1_Margin Q4/2024 peer,https://sbbs.com.vn/trung-tam-phan-tich/bao-cao-cong-ty/bao-cao-lan-dau-vci,Recovered from Excel; secondary,No; use official FS source pack
+M2.1,2.1_Margin Q2/2025 DSE,https://ir.dnse.com.vn/vi/post/quy-2--loi-nhuan-sau-thue-dnse-tang-115--so-voi-cung-ky--thuc-hien-gan-50--ke-hoach-2025-650.htm,Recovered from Excel; superseded,No; use official FS source pack
+M2.2,2.1_Margin Q2/2025 peers,https://ftp2.ssi.com.vn/Customers/GDDT/Analyst_Report/Strategy/Bao%20cao%20chien%20luoc%20nam%202026_2025.10.09_SSIResearch.pdf,Recovered from Excel; secondary,No; use official FS source pack
+M3.1,2.1_Margin Q4/2025 DSE,https://ir.dnse.com.vn/vi/post/dnse-dat-ky-luc-du-no-cho-vay-margin-va-ung-truoc-tien-ban-gan-6-000-ty-dong-687.htm,Recovered from Excel,Supporting only; official FS preferred
+M3.2,2.1_Margin Q4/2025 peers,https://nghiencuu.tapchikinhtetaichinh.vn/nghiep-vu-cho-vay-ky-quy-tai-cac-cong-ty-chung-khoan-viet-nam-nhin-tu-cac-phan-tich-va-doi-sanh-154120.html,Recovered from Excel; secondary,No; use official FS source pack
+M4.1,2.1_Margin Q2/2026 DSE,https://ir.dnse.com.vn/vi/post/doanh-thu-hoat-dong-dnse-tang-gan-60--trong-nua-dau-nam-832,Recovered from Excel,Supporting only; reviewed FS preferred
+M4.2,2.1_Margin Q2/2026 peers,https://smoney.com.vn/du-no-margin,Recovered from Excel; secondary,No; use official FS source pack
+D1–D7,2.1_Derivatives,Exact HNX quarterly links are stored in data/sources/derivatives_share_links.csv,Resolved in GitHub source pack,Yes
+S1–S19,2.5_Pricing,"Exact official fee/product links recovered from the original Excel hyperlinks; see Crosswalk_Final rows stock_brokerage_fee, margin_rate, derivatives_company_fee",Resolved,Yes

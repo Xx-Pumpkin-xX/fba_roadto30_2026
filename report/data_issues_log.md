@@ -33,7 +33,7 @@ Status: ✅ resolved · ⚠️ resolved provisionally, needs confirmation · ❌
 | D09 | `2.1_NewInvestors!A3` | "Late-2024" (19/12/2024) labelled Q4/2024 | Kept, noted as a mid-December figure | ✅ |
 | D10 | `2.1_Margin!I11:I15` | One column mixes growth rates and pp | Units separated in the notebook | ✅ |
 | D11 | `2.3_Derivatives!C6` | Text "300 or upon agreement" in a numeric column | Value 300, flag `negotiable=True` | ✅ |
-| D12 | `2.3_Derivatives!F4` | Truncated label "[Asss" | Renamed `side_factor [ASSUMPTION]` | ✅ |
+| D12 | `2.3_Derivatives!F4` | Truncated label "[Asss" | Renamed `side_factor [VALIDATED]` = 2 (HNX counts contracts one-way; reconciles with DNSE-reported 2025 contracts; not an explicit HNX rule) | ✅ |
 
 ## 3. Duplicated figures checked
 
@@ -136,3 +136,14 @@ Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new invest
 ## 12. Figure colours (27/09/2026)
 
 - DNSE bars in Figures 9–11 now use the colour of the client segment each panel covers (margin #eb6834, new investors #2a78d6, derivatives #1baf7a), matching the report's colour rules; peers stay grey. Figure 8 already used segment colours.
+
+## 13. Source crosswalk audit (27/09/2026)
+
+The team's source audit (`data/sources/source_crosswalk_audit.csv`, `source_audit_changelog.csv`, `source_id_recovery.csv`, `source_unresolved_items.csv`) was applied to the source register and data dictionary. **No analytical number changed** (Table 4 still 2.375 / 3.125 / 3.375; PL2 unchanged).
+
+- `B_data_dictionary.csv` now covers the 28 variables used in axis 2 (was 11), with source, link, retrieved date, actual period and source tier; `margin_reported` kept as reference only.
+- `B_sources.csv`: the 13 "PENDING BA" rows are replaced by links recovered from the original Excel (A1, A2, S5–S7, M1.1–M4.2, S1–S19), each marked with whether it is used in the final analysis. S5–S7 are reused for two different sources in different sheets, so the `context` column is needed to tell them apart.
+- F5–F8 now link to the official VNDIRECT, HSC, Vietcap and MBS financial-statement pages (were 24hmoney).
+- New rows: H1 (HOSE Q2/2026 top-10, 2.94% upper bound, via Tuoi Tre citing HOSE, grade C), HNX1 (HNX H1/2026 derivatives statistics), REG1 (SSC Decision 87, 200% margin ceiling), AR25 (DNSE Annual Report 2025 PDF).
+- D12: `side_factor = 2` relabelled from assumption to validated reconciliation input.
+- **Still open (do not block Appendix A):** official HOSE URL for the 2.94% figure; exact PDF URLs for some quarterly statements and the six HNX monthly reports.
