@@ -132,3 +132,7 @@ Result: axis-2 scores are unchanged (margin 3.33 = derivatives 3.33 > new invest
 
 - **D27:** the dataset's H1/2026 volume (28,723,229 contracts, no source) matches neither HNX series. HNX monthly statistics give 28,683,181 matched contracts and 28,733,107 including negotiated trades (VN30 futures only; government-bond futures were zero). The notebook now uses the HNX matched total (`data/sources/hnx_derivatives_monthly_H1_2026.csv`).
 - Effect: one extra point of derivatives share ≈ 0.344–1.147 billion VND a year (was 0.345–1.149); the brokerage residual in the ~94 bn analysis becomes 94.2 bn. No score changes.
+
+## 12. Figure colours (27/09/2026)
+
+- DNSE bars in Figures 9–11 now use the colour of the client segment each panel covers (margin #eb6834, new investors #2a78d6, derivatives #1baf7a), matching the report's colour rules; peers stay grey. Figure 8 already used segment colours.
